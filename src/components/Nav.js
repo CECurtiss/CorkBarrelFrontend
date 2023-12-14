@@ -3,37 +3,51 @@ import corkbarrellogo from "../images/corkbarrellogo.webp";
 
 function Nav() {
   const linkStyle = {
-    margin: "auto",
     textDecoration: "none",
     fontFamily: "helvetica",
     fontSize: "20px",
-  };
-  const imgStyle = { height: "150px", width: "450px", padding: "10px" };
+    margin: "10px",
+    
+     };
+  const imgStyle = { height: "100px", width: "375px", padding: "10px" };
 
-//   const sectionStyle={
-//     backgroundColor: "red",
-//   };
+  const sectionStyle={ display: "flex",
+  alignItems: "center",
+  width: "30%",
+  justifyContent: "center",
+ }
+
   return (
-    <nav style={{ display: "flex", alignItems: "center", backgroundColor: "rgb(120, 175, 58", }}>
-      <section style={{display: "flex"}}>
-        
-          <div style={linkStyle}>
-            <a href="#Wine">Wine</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#Beer">Beer</a>
-          </div>
+    <nav
+      style={{
+        display: "flex",
+        backgroundColor: "rgb(120, 175, 58",
+        justifyContent: "center",
+      }}
+    >
+      <section style={sectionStyle}>
+        <div style={linkStyle}>
+          <a href="#Wine">Wine</a>
+        </div>
+      </section>
+      <section style={sectionStyle}>
+
+        <div style={linkStyle}>
+          <a href="#Beer">Beer</a>
+        </div>
         </section>
-        <section>
+      <section>
         <img src={corkbarrellogo} style={imgStyle}></img>
-        </section>
-        <section>
-          <div style={linkStyle}>
-            <a href="#Spirits">Spirits</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#More">More</a>
-          </div>
+      </section>
+      <section style={sectionStyle}>
+        <div style={linkStyle}>
+          <a href="#Spirits">Spirits</a>
+        </div>
+      </section>
+      <section style={sectionStyle}>
+        <div style={linkStyle}>
+          <a href="#More">More</a>
+        </div>
       </section>
     </nav>
   );
