@@ -7,15 +7,15 @@ function Nav() {
     fontFamily: "helvetica",
     fontSize: "20px",
     margin: "10px",
-    
-     };
+  };
   const imgStyle = { height: "100px", width: "375px", padding: "10px" };
-
-  const sectionStyle={ display: "flex",
-  alignItems: "center",
-  width: "30%",
-  justifyContent: "center",
- }
+  
+  const sectionStyle = {
+    display: "flex",
+    alignItems: "center",
+    width: "30%",
+    justifyContent: "center",
+  };
 
   return (
     <nav
@@ -26,27 +26,30 @@ function Nav() {
       }}
     >
       <section style={sectionStyle}>
-        <div style={linkStyle}>
-          <a href="#Wine">Wine</a>
+        <div >
+          <a href="#Wine" style={linkStyle}>Wine</a>
         </div>
       </section>
-      <section style={sectionStyle}>
 
-        <div style={linkStyle}>
-          <a href="#Beer">Beer</a>
+      <section style={sectionStyle}>
+        <div>
+          <a href="#Beer" style={linkStyle}>Beer</a>
         </div>
-        </section>
+      </section>
+
       <section>
         <img src={corkbarrellogo} style={imgStyle}></img>
       </section>
+
       <section style={sectionStyle}>
-        <div style={linkStyle}>
-          <a href="#Spirits">Spirits</a>
+        <div>
+          <a href="#Spirits"  style={linkStyle}>Spirits</a>
         </div>
       </section>
+
       <section style={sectionStyle}>
-        <div style={linkStyle}>
-          <a href="#More">More</a>
+        <div>
+          <a href="#More" style={linkStyle}>More</a>
         </div>
       </section>
     </nav>
