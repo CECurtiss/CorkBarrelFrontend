@@ -23,28 +23,16 @@ function Nav() {
           <div style={linkStyle}>
             <a href="#Beer">Beer</a>
           </div>
-          <div style={linkStyle}>
-            <a href="#Spirits">Spirits</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#About">About</a>
-          </div>
         </section>
         <section>
         <img src={corkbarrellogo} style={imgStyle}></img>
         </section>
         <section>
-        <div style={linkStyle}>
-            <a href="#Specials">Monthly Specials</a>
+          <div style={linkStyle}>
+            <a href="#Spirits">Spirits</a>
           </div>
           <div style={linkStyle}>
-            <a href="#Locations">Locations</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#Contact">Contact Us</a>
-          </div>
-          <div style={linkStyle}>
-            <a href="#Events">Events</a>
+            <a href="#More">More</a>
           </div>
       </section>
     </nav>
