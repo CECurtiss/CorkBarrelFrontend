@@ -4,11 +4,13 @@ import corkbarrellogo from "../images/corkbarrellogo.webp";
 function Nav() {
   const linkStyle = {
     textDecoration: "none",
-    fontFamily: "helvetica",
-    fontSize: "20px",
+    fontFamily: "georgia",
+    fontSize: "25px",
     margin: "10px",
+    color: "#054581",
+    textShadow: "1px 1px 2px white",
   };
-  const imgStyle = { height: "100px", width: "375px", padding: "10px" };
+  const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" };
   
   const sectionStyle = {
     display: "flex",
