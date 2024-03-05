@@ -1,7 +1,7 @@
 import React from "react";
 import corkbarrellogo from "../images/corkbarrellogo.webp";
 
-function Nav() {
+const Nav = ()  => {
   const linkStyle = {
     textDecoration: "none",
     fontFamily: "georgia",
