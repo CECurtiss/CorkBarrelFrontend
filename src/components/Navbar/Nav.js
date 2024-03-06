@@ -1,17 +1,12 @@
 import React from "react";
 import { Link } from "react-router-dom";
+import { Navbar, Dropdown, NavDropdown } from "react-bootstrap";
+
 import corkbarrellogo from "../../images/corkbarrellogo.webp";
 import "./Nav.css";
 
 const Nav = ()  => {
-  const linkStyle = {
-    textDecoration: "none",
-    fontFamily: "georgia",
-    fontSize: "35px",
-    margin: "10px",
-    color: "#054581",
-    textShadow: "1px 1px 2px white",
-  };
+  
   const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" };
   
   const sectionStyle = {
@@ -21,8 +16,19 @@ const Nav = ()  => {
     justifyContent: "center",
   };
 
+  const navDropStyle = {
+    textDecoration: "none",
+    fontFamily: "georgia",
+    fontSize: "35px",
+    margin: "10px",
+    color: "#054581",
+    textShadow: "1px 1px 2px white",
+
+  };
+
   return (
-    <nav
+    
+    <Navbar
       style={{
         display: "flex",
         backgroundColor: "rgb(120, 175, 58",
@@ -31,14 +37,14 @@ const Nav = ()  => {
     >
       <section style={sectionStyle}>
         <div>
-          <Link to="/Wine" style={linkStyle}>
+          <Link to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p></Link>
         </div>
       </section>
 
       <section style={sectionStyle}>
         <div>
-          <Link to="/Beer" style={linkStyle}>
+          <Link to="/Beer" className="linkStyle">
           <p className="menuItem">Beer</p>
           </Link>
         </div>
@@ -52,18 +58,18 @@ const Nav = ()  => {
 
       <section style={sectionStyle}>
         <div>
-          <Link to="/Spirits"  style={linkStyle}>
+          <Link to="/Spirits" className="linkStyle">
           <p className="menuItem">Spirits</p>
           </Link>
         </div>
       </section>
-{/* will be a drop down menu rather than a link */}
       <section style={sectionStyle}>
-        <div>
-          <Link to="/More" style={linkStyle}>More</Link>
-        </div>
+      <NavDropdown style={navDropStyle} title="More" id="basic-nav-dropdown">
+        <NavDropdown.Item href="/About">About</NavDropdown.Item>
+        <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
+      </NavDropdown>
       </section>
-    </nav>
+    </Navbar>
   );
 }
 

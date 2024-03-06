@@ -28,3 +28,23 @@ function App() {
 }
 
 export default App;
+
+// consider:
+// move routes intoa route file, then store them in an array and map over them to create the routes
+// import Home from './pages/Home';
+// import About from './pages/About';
+// import Contact from './pages/Contact';
+
+// const routes = [
+//   { path: '/', component: <Home />, exact: true },
+//   { path: '/about', component: <About /> },
+//   { path: '/contact', component: <Contact /> },
+// ];
+
+// export default routes;
+
+{/* <Routes>
+          {routes.map((route, index) => (
+            <Route key={index} path={route.path} element={route.component} />
+          ))}
+        </Routes> */}
