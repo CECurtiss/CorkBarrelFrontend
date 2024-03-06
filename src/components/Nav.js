@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import corkbarrellogo from "../images/corkbarrellogo.webp";
 
 const Nav = ()  => {
@@ -29,29 +30,31 @@ const Nav = ()  => {
     >
       <section style={sectionStyle}>
         <div >
-          <a href="#Wine" style={linkStyle}>Wine</a>
+          <Link to="/Wine" style={linkStyle}>Wine</Link>
         </div>
       </section>
 
       <section style={sectionStyle}>
         <div>
-          <a href="#Beer" style={linkStyle}>Beer</a>
+          <Link to="/Beer" style={linkStyle}>Beer</Link>
         </div>
       </section>
 
       <section>
+        <Link to="/">
         <img src={corkbarrellogo} style={imgStyle}></img>
+        </Link>
       </section>
 
       <section style={sectionStyle}>
         <div>
-          <a href="#Spirits"  style={linkStyle}>Spirits</a>
+          <Link to="/Spirits"  style={linkStyle}>Spirits</Link>
         </div>
       </section>
-
+{/* will be a drop down menu rather than a link */}
       <section style={sectionStyle}>
         <div>
-          <a href="#More" style={linkStyle}>More</a>
+          <Link to="/More" style={linkStyle}>More</Link>
         </div>
       </section>
     </nav>
