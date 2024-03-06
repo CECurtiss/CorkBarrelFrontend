@@ -1,12 +1,13 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import corkbarrellogo from "../images/corkbarrellogo.webp";
+import corkbarrellogo from "../../images/corkbarrellogo.webp";
+import "./Nav.css";
 
 const Nav = ()  => {
   const linkStyle = {
     textDecoration: "none",
     fontFamily: "georgia",
-    fontSize: "25px",
+    fontSize: "35px",
     margin: "10px",
     color: "#054581",
     textShadow: "1px 1px 2px white",
@@ -29,14 +30,17 @@ const Nav = ()  => {
       }}
     >
       <section style={sectionStyle}>
-        <div >
-          <Link to="/Wine" style={linkStyle}>Wine</Link>
+        <div>
+          <Link to="/Wine" style={linkStyle}>
+            <p className="menuItem">Wine</p></Link>
         </div>
       </section>
 
       <section style={sectionStyle}>
         <div>
-          <Link to="/Beer" style={linkStyle}>Beer</Link>
+          <Link to="/Beer" style={linkStyle}>
+          <p className="menuItem">Beer</p>
+          </Link>
         </div>
       </section>
 
@@ -48,7 +52,9 @@ const Nav = ()  => {
 
       <section style={sectionStyle}>
         <div>
-          <Link to="/Spirits"  style={linkStyle}>Spirits</Link>
+          <Link to="/Spirits"  style={linkStyle}>
+          <p className="menuItem">Spirits</p>
+          </Link>
         </div>
       </section>
 {/* will be a drop down menu rather than a link */}

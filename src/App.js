@@ -5,7 +5,7 @@ import Home from "./pages/Home";
 import Wine from "./pages/Wine";
 import Beer from "./pages/Beer";
 import Spirits from "./pages/Spirits";
-import Nav from "./components/Nav";
+import Nav from "./components/Navbar/Nav.js";
 import Footer from "./components/Footer";
 
 function App() {
