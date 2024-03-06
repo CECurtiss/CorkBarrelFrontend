@@ -13,6 +13,9 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
+            <Route path="/Wine" element={<Wine />} />
+            <Route path="/Beer" element={<Beer />} />
+            <Route path="/Spirits" element={<Spirits />} />
           </Routes>
         </div>
         <Footer />
