@@ -1,3 +1,11 @@
+.navbarStyle {
+    display: flex;
+    background-color: rgb(120, 175, 58);
+    justify-content: center;
+    position: sticky;
+    top: 0;
+}
+
 .menuItem {
     transition: all .2s ease-in-out;
     margin: 0;
@@ -17,12 +25,14 @@
     text-shadow: 1px 1px 2px white;
   };
 
-  .sectionStyle {
+.menuStyle {
     display: flex;
     align-items: center;
     width: 30%;
     justify-content: center;
+    background-color: royalblue;
   };
+
   /* const sectionStyle = {
     display: "flex",
     alignItems: "center",

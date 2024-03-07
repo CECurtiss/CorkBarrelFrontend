@@ -9,12 +9,12 @@ const Nav = ()  => {
   
   const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" };
   
-  const sectionStyle = {
-    display: "flex",
-    alignItems: "center",
-    width: "30%",
-    justifyContent: "center",
-  };
+  // const sectionStyle = {
+  //   display: "flex",
+  //   alignItems: "center",
+  //   width: "30%",
+  //   justifyContent: "center",
+  // };
 
   const navDropStyle = {
     textDecoration: "none",
@@ -28,21 +28,17 @@ const Nav = ()  => {
 
   return (
     
-    <Navbar
-      style={{
-        display: "flex",
-        backgroundColor: "rgb(120, 175, 58",
-        justifyContent: "center",
-      }}
-    >
-      <section style={sectionStyle}>
+    <Navbar 
+      className="navbarStyle"
+      >
+      <section className="menuStyle">
         <div>
           <Link to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p></Link>
         </div>
       </section>
 
-      <section style={sectionStyle}>
+      <section className="sectionStyle">
         <div>
           <Link to="/Beer" className="linkStyle">
           <p className="menuItem">Beer</p>
@@ -50,20 +46,20 @@ const Nav = ()  => {
         </div>
       </section>
 
-      <section>
+      <Navbar.Brand>
         <Link to="/">
         <img src={corkbarrellogo} style={imgStyle}></img>
         </Link>
-      </section>
+      </Navbar.Brand>
 
-      <section style={sectionStyle}>
+      <section className="sectionStyle">
         <div>
           <Link to="/Spirits" className="linkStyle">
           <p className="menuItem">Spirits</p>
           </Link>
         </div>
       </section>
-      <section style={sectionStyle}>
+      <section className="sectionStyle">
       <NavDropdown style={navDropStyle} title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="/About">About</NavDropdown.Item>
         <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
