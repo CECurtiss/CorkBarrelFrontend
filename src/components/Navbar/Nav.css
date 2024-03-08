@@ -1,9 +1,32 @@
+/* overriding user agent stylesheet */
+a#basic-nav-dropdown {
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 35px;
+    margin: 10px;
+    color: #054581;
+    text-shadow: 1px 1px 2px white;
+}
+
 .navbarStyle {
     display: flex;
     background-color: rgb(120, 175, 58);
     justify-content: center;
     position: sticky;
     top: 0;
+}
+section {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    justify-content: center;
+    text-decoration: none;
+  };
+
+
+
+section NavDropdown {
+    text-decoration: none;
 }
 
 .menuItem {
@@ -24,31 +47,3 @@
     color: #054581;
     text-shadow: 1px 1px 2px white;
   };
-
-.menuStyle {
-    display: flex;
-    align-items: center;
-    width: 30%;
-    justify-content: center;
-    background-color: royalblue;
-  };
-
-  /* const sectionStyle = {
-    display: "flex",
-    alignItems: "center",
-    width: "30%",
-    justifyContent: "center",
-  }; */
-
-  NavDropdown {
-    text-decoration: none;
-  }
-  /* styling to add for CB logo navbar */
-/* .imgStyle {
-    height: 100px;
-    width: 375px;
-    box-shadow: 10px 5px 5px black;
-    margin: 10px;
-  }; */
-
-  /* const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" }; */

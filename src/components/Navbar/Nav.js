@@ -9,13 +9,6 @@ const Nav = ()  => {
   
   const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" };
   
-  // const sectionStyle = {
-  //   display: "flex",
-  //   alignItems: "center",
-  //   width: "30%",
-  //   justifyContent: "center",
-  // };
-
   const navDropStyle = {
     textDecoration: "none",
     fontFamily: "georgia",
@@ -28,10 +21,8 @@ const Nav = ()  => {
 
   return (
     
-    <Navbar 
-      className="navbarStyle"
-      >
-      <section className="menuStyle">
+    <Navbar className="navbarStyle">
+      <section className="sectionStyle">
         <div>
           <Link to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p></Link>
@@ -46,11 +37,11 @@ const Nav = ()  => {
         </div>
       </section>
 
-      <Navbar.Brand>
+      <section>
         <Link to="/">
         <img src={corkbarrellogo} style={imgStyle}></img>
         </Link>
-      </Navbar.Brand>
+      </section>
 
       <section className="sectionStyle">
         <div>
