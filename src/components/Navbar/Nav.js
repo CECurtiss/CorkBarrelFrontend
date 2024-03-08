@@ -5,7 +5,7 @@ import { Navbar, Dropdown, NavDropdown } from "react-bootstrap";
 import corkbarrellogo from "../../images/corkbarrellogo.webp";
 import "./Nav.css";
 
-const Nav = ()  => {
+const NavigationBar = ()  => {
   
   const imgStyle = { height: "100px", width: "375px", boxShadow: "10px 5px 5px black", margin: "10px" };
   
@@ -22,14 +22,14 @@ const Nav = ()  => {
   return (
     
     <Navbar className="navbarStyle">
-      <section className="sectionStyle">
+      <section>
         <div>
           <Link to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p></Link>
         </div>
       </section>
 
-      <section className="sectionStyle">
+      <section>
         <div>
           <Link to="/Beer" className="linkStyle">
           <p className="menuItem">Beer</p>
@@ -43,14 +43,14 @@ const Nav = ()  => {
         </Link>
       </section>
 
-      <section className="sectionStyle">
+      <section>
         <div>
           <Link to="/Spirits" className="linkStyle">
           <p className="menuItem">Spirits</p>
           </Link>
         </div>
       </section>
-      <section className="sectionStyle">
+      <section>
       <NavDropdown style={navDropStyle} title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="/About">About</NavDropdown.Item>
         <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
@@ -60,4 +60,4 @@ const Nav = ()  => {
   );
 }
 
-export default Nav;
+export default NavigationBar;

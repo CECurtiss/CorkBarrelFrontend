@@ -8,13 +8,17 @@ a#basic-nav-dropdown {
     text-shadow: 1px 1px 2px white;
 }
 
+/* styling for navbar */
 .navbarStyle {
     display: flex;
     background-color: rgb(120, 175, 58);
     justify-content: center;
     position: sticky;
     top: 0;
+    height: 124px;
 }
+
+/* spacing for navbar items */
 section {
     display: flex;
     align-items: center;
@@ -23,22 +27,19 @@ section {
     text-decoration: none;
   };
 
-
-
-section NavDropdown {
-    text-decoration: none;
-}
-
+  /* effects for menu items */
 .menuItem {
     transition: all .2s ease-in-out;
     margin: 0;
     padding: 0;
 }
 
+/* hover effects for menu items */
 .menuItem:hover {
     transform: scale(1.2); 
 }
 
+/* styling for menu items */
 .linkStyle {
     text-decoration: none;
     font-family: georgia;
