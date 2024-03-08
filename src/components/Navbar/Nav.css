@@ -19,7 +19,7 @@ a#basic-nav-dropdown {
 }
 
 /* spacing for navbar items */
-section {
+.menuItemStyle {
     display: flex;
     align-items: center;
     width: 30%;

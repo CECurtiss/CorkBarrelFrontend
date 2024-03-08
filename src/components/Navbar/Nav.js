@@ -1,6 +1,6 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import { Navbar, Dropdown, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, Dropdown, NavDropdown } from "react-bootstrap";
 
 import corkbarrellogo from "../../images/corkbarrellogo.webp";
 import "./Nav.css";
@@ -22,40 +22,40 @@ const NavigationBar = ()  => {
   return (
     
     <Navbar className="navbarStyle">
-      <section>
+      <Nav className="menuItemStyle">
         <div>
           <Link to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p></Link>
         </div>
-      </section>
+      </Nav>
 
-      <section>
+      <Nav className="menuItemStyle">
         <div>
           <Link to="/Beer" className="linkStyle">
           <p className="menuItem">Beer</p>
           </Link>
         </div>
-      </section>
+      </Nav>
 
-      <section>
+      <Nav className="menuItemStyle">
         <Link to="/">
         <img src={corkbarrellogo} style={imgStyle}></img>
         </Link>
-      </section>
+      </Nav>
 
-      <section>
+      <Nav className="menuItemStyle">
         <div>
           <Link to="/Spirits" className="linkStyle">
           <p className="menuItem">Spirits</p>
           </Link>
         </div>
-      </section>
-      <section>
+      </Nav>
+      <Nav className="menuItemStyle">
       <NavDropdown style={navDropStyle} title="More" id="basic-nav-dropdown">
         <NavDropdown.Item href="/About">About</NavDropdown.Item>
         <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
       </NavDropdown>
-      </section>
+      </Nav>
     </Navbar>
   );
 }
