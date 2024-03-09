@@ -7,6 +7,7 @@ import Beer from "./pages/Beer";
 import Spirits from "./pages/Spirits";
 import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
+import Application from "./pages/Application";
 import Footer from "./components/Footer";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -23,6 +24,7 @@ function App() {
             <Route path="/Beer" element={<Beer />} />
             <Route path="/Spirits" element={<Spirits />} />
             <Route path="/Events" element={<Events />} />
+            <Route path="/Application" element={<Application />} />
           </Routes>
         </div>
         <Footer />
