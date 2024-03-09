@@ -49,7 +49,6 @@ const NavigationBar = () => {
         <NavDropdown title="More" id="basic-nav-dropdown">
           <NavDropdown.Item as={Link} to="/Events">Upcoming Events</NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/Application">Online Application</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/Contact">Contact</NavDropdown.Item>
           <NavDropdown.Item as={Link} to="/Donation">Donation Request</NavDropdown.Item>
         </NavDropdown>
       </Nav>
