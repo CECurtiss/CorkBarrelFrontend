@@ -47,8 +47,10 @@ const NavigationBar = () => {
 
       <Nav style={{ marginBottom: "1rem"}} className="menuItemStyle">
         <NavDropdown title="More" id="basic-nav-dropdown">
-          <NavDropdown.Item to="/About">About</NavDropdown.Item>
+          <NavDropdown.Item to="/Events">Upcoming Events</NavDropdown.Item>
+          <NavDropdown.Item to="/Application">Online Application</NavDropdown.Item>
           <NavDropdown.Item to="/Contact">Contact</NavDropdown.Item>
+          <NavDropdown.Item to="/Donation">Donation Request</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar>
