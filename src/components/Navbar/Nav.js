@@ -1,5 +1,5 @@
 import React from "react";
-import { NavLink } from "react-router-dom";
+import { NavLink, Link } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 import corkbarrellogo from "../../images/corkbarrellogo.webp";
@@ -47,10 +47,10 @@ const NavigationBar = () => {
 
       <Nav style={{ marginBottom: "1rem"}} className="menuItemStyle">
         <NavDropdown title="More" id="basic-nav-dropdown">
-          <NavDropdown.Item to="/Events">Upcoming Events</NavDropdown.Item>
-          <NavDropdown.Item to="/Application">Online Application</NavDropdown.Item>
-          <NavDropdown.Item to="/Contact">Contact</NavDropdown.Item>
-          <NavDropdown.Item to="/Donation">Donation Request</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Events">Upcoming Events</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Application">Online Application</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Contact">Contact</NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Donation">Donation Request</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar>
