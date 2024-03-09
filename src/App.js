@@ -8,6 +8,8 @@ import Spirits from "./pages/Spirits";
 import NavigationBar from "./components/Navbar/Nav.js";
 import Footer from "./components/Footer";
 
+import 'bootstrap/dist/css/bootstrap.min.css';
+
 function App() {
   return (
     <>

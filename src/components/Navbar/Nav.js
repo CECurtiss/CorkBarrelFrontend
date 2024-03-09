@@ -1,6 +1,6 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-import { Nav, Navbar, Dropdown, NavDropdown } from "react-bootstrap";
+import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
 import corkbarrellogo from "../../images/corkbarrellogo.webp";
 import "./Nav.css";
@@ -11,15 +11,6 @@ const NavigationBar = () => {
     width: "375px",
     boxShadow: "10px 5px 5px black",
     margin: "10px",
-  };
-
-  const navDropStyle = {
-    textDecoration: "none",
-    fontFamily: "georgia",
-    fontSize: "35px",
-    margin: "10px",
-    color: "#054581",
-    textShadow: "1px 1px 2px white",
   };
 
   return (
@@ -42,7 +33,7 @@ const NavigationBar = () => {
 
       <Nav className="menuItemStyle">
         <NavLink to="/">
-          <img src={corkbarrellogo} style={imgStyle}></img>
+          <img src={corkbarrellogo} style={imgStyle} alt="home logo"></img>
         </NavLink>
       </Nav>
 
@@ -53,10 +44,11 @@ const NavigationBar = () => {
           </NavLink>
         </div>
       </Nav>
+
       <Nav className="menuItemStyle">
-        <NavDropdown style={navDropStyle} title="More" id="basic-nav-dropdown">
-          <NavDropdown.Item href="/About">About</NavDropdown.Item>
-          <NavDropdown.Item href="/Contact">Contact</NavDropdown.Item>
+        <NavDropdown title="More" id="basic-nav-dropdown">
+          <NavDropdown.Item to="/About">About</NavDropdown.Item>
+          <NavDropdown.Item to="/Contact">Contact</NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar>
