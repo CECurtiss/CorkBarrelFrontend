@@ -14,7 +14,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <Navbar className="navbarStyle">
+    <Navbar style={{ position: "sticky"}} className="navbarStyle">
       <Nav className="menuItemStyle">
         <div>
           <NavLink to="/Wine" className="linkStyle">
@@ -45,7 +45,7 @@ const NavigationBar = () => {
         </div>
       </Nav>
 
-      <Nav className="menuItemStyle">
+      <Nav style={{ marginBottom: "1rem"}} className="menuItemStyle">
         <NavDropdown title="More" id="basic-nav-dropdown">
           <NavDropdown.Item to="/About">About</NavDropdown.Item>
           <NavDropdown.Item to="/Contact">Contact</NavDropdown.Item>

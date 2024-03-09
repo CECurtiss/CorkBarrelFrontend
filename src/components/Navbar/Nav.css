@@ -3,7 +3,6 @@ a#basic-nav-dropdown {
     text-decoration: none;
     font-family: georgia;
     font-size: 35px;
-    margin: 10px;
     color: #054581;
     text-shadow: 1px 1px 2px white;
 }
@@ -13,7 +12,6 @@ a#basic-nav-dropdown {
     display: flex;
     background-color: rgb(120, 175, 58);
     justify-content: center;
-    position: sticky;
     top: 0;
     height: 124px;
 }
