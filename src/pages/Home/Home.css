@@ -4,8 +4,20 @@
     margin: 0;
 }
 
-.reservewallImg {
+.wineAislesImg {
     width: auto;
     height: auto;
-    margin-Top: 30px;
+}
+
+.wineDiv {
+    margin: 50px;
+    display: flex;
+}
+
+.wineText {
+    margin: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
