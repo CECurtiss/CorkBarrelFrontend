@@ -9,7 +9,7 @@ const Home = () => {
   return (
     <>
       <img className="storefrontImg" src={storefront} alt="storefront" />
-      <div className="col-12 m-2 wineDiv">
+      <div className="col-12 wineDiv">
         <img
           className="col-6 wineAisles"
           src={wineAisles}

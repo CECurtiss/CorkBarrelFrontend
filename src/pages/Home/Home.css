@@ -12,14 +12,24 @@
 .wineDiv {
     padding: 20px;
     display: flex;
-    justify-content: space-around;
+    padding-top: 300px;
 }
 
 .wineText {
-    font-size: 20px;
+    font-size: 30px;
     padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    justify-content: space-around;
+    font-family: arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.wineText h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #054581;
 }
