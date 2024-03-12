@@ -10,12 +10,14 @@
 }
 
 .wineDiv {
-    margin: 50px;
+    padding: 20px;
     display: flex;
+    justify-content: space-around;
 }
 
 .wineText {
-    margin: 50px;
+    font-size: 20px;
+    padding: 20px;
     display: flex;
     flex-direction: column;
     justify-content: center;
