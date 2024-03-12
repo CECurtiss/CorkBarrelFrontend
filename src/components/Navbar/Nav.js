@@ -25,11 +25,11 @@ const NavigationBar = () => {
 
       <Nav className="menuItemStyle">
         <div>
-          <NavLink to="/Beer" className="linkStyle">
-            <p className="menuItem">Beer</p>
+          <NavLink to="/Spirits" className="linkStyle">
+            <p className="menuItem">Spirits</p>
           </NavLink>
         </div>
-      </Nav>
+      </Nav>     
 
       <Nav className="menuItemStyle">
         <NavLink to="/">
@@ -39,8 +39,8 @@ const NavigationBar = () => {
 
       <Nav className="menuItemStyle">
         <div>
-          <NavLink to="/Spirits" className="linkStyle">
-            <p className="menuItem">Spirits</p>
+          <NavLink to="/Beer" className="linkStyle">
+            <p className="menuItem">Beer</p>
           </NavLink>
         </div>
       </Nav>
