@@ -25,8 +25,8 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="spiritsDiv">
-        <div className="spiritsText">
+      <div className="col-12 spiritsDiv">
+        <div className="col-6 spiritsText">
           <h1>Spirits</h1>
           <p>
             At Cork & Barrel, our selection of spirits is vast and varied. We
@@ -37,7 +37,7 @@ const Home = () => {
             everyday prices, we offer case DISCOUNTS as well.
           </p>
         </div>
-        <img className="spiritsImg" src={spiritsDisplay} alt='spirits display'></img>
+        <img className="col-6 spiritsImg" src={spiritsDisplay} alt='spirits display'></img>
       </div>
       <h1>Home Page</h1>
     </>

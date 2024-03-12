@@ -33,3 +33,33 @@
     font-weight: bold;
     color: #054581;
 }
+
+.spiritsImg {
+    width: auto;
+    height: auto;
+}
+
+.spiritsDiv {
+    padding: 20px;
+    display: flex;
+    padding-top: 300px;
+}
+
+.spiritsText {
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.spiritsText h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #054581;
+}
