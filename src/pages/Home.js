@@ -5,16 +5,16 @@ import backgroundslash from "../images/backgroundslash.png";
 
 const Home = () => {
     const backgroundImageStyle = {
+        backgroundImage: `url(${storefront})`,
         width: "100%",
-        height: "auto",
+        height: "700px",
         margin: "0",
     }
     return (
         <>
-        <img style={backgroundImageStyle} src={storefront} alt="storefront" />
-        <div style={{backgroundColor: "rgb(120, 175, 58)", height: "10px"}}></div>
-        <img src={backgroundslash} alt="backgroundslash" style={{width: "100%", height: "auto", margin: "0"}} />
-        <img style={backgroundImageStyle} src={reservewall} alt="reservewall" />
+        <div style={backgroundImageStyle} >content</div>
+        {/* <img src={backgroundslash} alt="backgroundslash" style={{width: "100%", height: "auto", margin: "0"}} />
+        <img style={backgroundImageStyle} src={reservewall} alt="reservewall" /> */}
         <h1>Home Page</h1>
         </>
     )
