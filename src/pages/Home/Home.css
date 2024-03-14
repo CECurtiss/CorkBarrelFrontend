@@ -26,8 +26,10 @@
     line-height: 2;
     text-align: center;
     background-image: url(../../images/linewineart2.png);
+    /* created by OpenArt AI "create a simple continuous line drawing of a wine glass and wine bottle" */
     background-repeat: no-repeat;
     background-position: center;
+    background-size: 50%;  
 }
 
 .wineText h1 {
@@ -58,6 +60,10 @@
     font-family: arial, sans-serif;
     line-height: 2;
     text-align: center;
+    background-image: url(../../images/lineartbourbonglass1.png);
+    /* created by OpenArt AI "create a very simple black and white continuous line drawing of a whiskey glass" */
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .spiritsText h1 {
