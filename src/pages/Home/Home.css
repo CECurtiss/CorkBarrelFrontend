@@ -65,3 +65,26 @@
     font-weight: bold;
     color: #054581;
 }
+
+.beerText {
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-around;
+    font-family: arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+    /* background-image: url(../../images/lineartbeer1.png); */
+    /* created by OpenArt AI "create a simple continuous line drawing of a beer bottle and glass" */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.beerText h1 {
+    font-size: 50px;
+    font-weight: bold;
+    color: #054581;
+}

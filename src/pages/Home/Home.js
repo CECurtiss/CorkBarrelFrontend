@@ -46,12 +46,12 @@ const Home = () => {
         <div className="col-6 beerText">
           <h1>Beer</h1>
           <p>
-            Let the knowledgeable staff at Cork & Barrel Wine and Spirits help
-            you navigate our selection of over 2,200 different wines. Visit us
-            today and take advantage of our amazing service and competitive
-            prices. Wether you're buying your go-to wine, or looking for
-            something completely new, we've got a wine for you.
-          </p>
+            Cork & Barrel has an extensive selection of craft, domestic, and
+            imported beers. We carry a wide variety of styles and sizes. Whether
+            you're looking for a six-pack of your favorite beer, or a case of
+            something new, we've got you covered. Our staff is always available
+            to help you find the perfect beer for your needs.
+            </p>
         </div>
       </div>
     </>
