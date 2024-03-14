@@ -20,12 +20,14 @@
     padding: 20px;
     display: flex;
     flex-direction: column;
-    justify-content: center;
     align-items: center;
     justify-content: space-around;
     font-family: arial, sans-serif;
     line-height: 2;
     text-align: center;
+    background-image: url(../../images/linewineart2.png);
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .wineText h1 {
