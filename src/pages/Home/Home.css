@@ -9,7 +9,7 @@
     height: auto;
 }
 
-.wineDiv {
+.categoryDiv {
     padding: 20px;
     display: flex;
     padding-top: 300px;
@@ -41,12 +41,6 @@
 .spiritsImg {
     width: auto;
     height: auto;
-}
-
-.spiritsDiv {
-    padding: 20px;
-    display: flex;
-    padding-top: 300px;
 }
 
 .spiritsText {

@@ -4,6 +4,7 @@ import "./Home.css";
 import storefront from "../../images/storefront.jpg";
 import wineAisles from "../../images/WineAisles.jpg";
 import spiritsDisplay from "../../images/spiritsdisplay.jpg";
+import beerDoors from "../../images/beercoolerdoors.jpg";
 // import reservewall from "../../images/reservewall.jpg";
 
 const Home = () => {
@@ -11,7 +12,7 @@ const Home = () => {
     <>
       <img className="storefrontImg" src={storefront} alt="storefront" />
 
-      <div className="col-12 wineDiv">
+      <div className="col-12 categoryDiv">
         <img className="col-6 wineAisles" src={wineAisles} alt="wine aisles" />
         <div className="col-6 wineText">
           <h1>Wine</h1>
@@ -25,7 +26,7 @@ const Home = () => {
         </div>
       </div>
 
-      <div className="col-12 spiritsDiv">
+      <div className="col-12 categoryDiv">
         <div className="col-6 spiritsText">
           <h1>Spirits</h1>
           <p>
@@ -39,7 +40,20 @@ const Home = () => {
         </div>
         <img className="col-6 spiritsImg" src={spiritsDisplay} alt='spirits display'></img>
       </div>
-      <h1>Home Page</h1>
+
+      <div className="col-12 categoryDiv">
+        <img className="col-6 coolerdoors" src={beerDoors} alt="Beer Cooler Doors" />
+        <div className="col-6 beerText">
+          <h1>Beer</h1>
+          <p>
+            Let the knowledgeable staff at Cork & Barrel Wine and Spirits help
+            you navigate our selection of over 2,200 different wines. Visit us
+            today and take advantage of our amazing service and competitive
+            prices. Wether you're buying your go-to wine, or looking for
+            something completely new, we've got a wine for you.
+          </p>
+        </div>
+      </div>
     </>
   );
 };
