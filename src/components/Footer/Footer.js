@@ -3,6 +3,7 @@ import { Link } from "react-router-dom";
 
 import facebookIcon from "../../images/icons/fbicon.png";
 import instagramIcon from "../../images/icons/instaicon.png";
+import xIcon from "../../images/icons/xicon7.png";
 import "./Footer.css";
 
 
@@ -37,13 +38,13 @@ const Footer = () => {
               <img className="icon" src={facebookIcon} alt="facebook icon"></img>
             </Link>
 
-            <Link to="https://www.instagram.com/" target="_blank">
+            <Link to="https://www.instagram.com/corkbarrel" target="_blank">
               <img className="icon" src={instagramIcon} alt="instagram icon"></img>
             </Link>
 
-            <a href="https://www.twitter.com/">
-              <i class="fab fa-twitter-square"></i>
-            </a>
+            <Link to="https://www.twitter.com/corkbarrel" target="_blank">
+              <img className="icon" src={xIcon} alt="twitter icon"></img>
+            </Link>
           </div>
         </div>
       </div>
