@@ -1,3 +1,10 @@
 .footerContainer {
     background-color: rgb(120, 175, 58);
+    padding: 50px;
+}
+
+
+.icon {
+    height: 50px;
+    margin: 10px;
 }
