@@ -28,8 +28,9 @@ const Footer = () => {
 
           <div className="col-3">
             <h3>Contact</h3>
-            <p>Phone: 123-456-7890</p>
-            <p>Email:</p>
+            <p>Downtown Phone: 785-842-4450</p>
+            <p>23rd St Phone: 785-331-4242</p>
+
           </div>
 
           <div className="iconLinks col-3">
