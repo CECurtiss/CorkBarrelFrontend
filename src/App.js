@@ -9,7 +9,7 @@ import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
 import Application from "./pages/Application";
 import DonationRequest from "./pages/DonationRequest";
-import Footer from "./components/Footer";
+import Footer from "./components/Footer/Footer.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 
