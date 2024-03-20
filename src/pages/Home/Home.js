@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 import "./Home.css";
 import storefront from "../../images/storefront.jpg";
@@ -15,7 +16,9 @@ const Home = () => {
       <div className="col-12 categoryDiv">
         <img className="col-6 wineAisles" src={wineAisles} alt="wine aisles" />
         <div className="col-6 wineText">
-          <h1>Wine</h1>
+          <h1>
+            <Link to="/Wine">Wine</Link>
+          </h1>
           <p>
             Let the knowledgeable staff at Cork & Barrel Wine and Spirits help
             you navigate our selection of over 2,200 different wines. Visit us
@@ -28,7 +31,9 @@ const Home = () => {
 
       <div className="col-12 categoryDiv">
         <div className="col-6 spiritsText">
-          <h1>Spirits</h1>
+          <h1>
+            <Link to="/Spirits">Spirits</Link>
+          </h1>
           <p>
             At Cork & Barrel, our selection of spirits is vast and varied. We
             carry everything from the most popular brands to the most obscure.
@@ -38,20 +43,30 @@ const Home = () => {
             everyday prices, we offer case DISCOUNTS as well.
           </p>
         </div>
-        <img className="col-6 spiritsImg" src={spiritsDisplay} alt='spirits display'></img>
+        <img
+          className="col-6 spiritsImg"
+          src={spiritsDisplay}
+          alt="spirits display"
+        ></img>
       </div>
 
       <div className="col-12 categoryDiv">
-        <img className="col-6 coolerdoors" src={beerDoors} alt="Beer Cooler Doors" />
+        <img
+          className="col-6 coolerdoors"
+          src={beerDoors}
+          alt="Beer Cooler Doors"
+        />
         <div className="col-6 beerText">
-          <h1>Beer</h1>
+          <h1>
+          <Link to="/Beer">Beer</Link>
+          </h1>
           <p>
             Cork & Barrel has an extensive selection of craft, domestic, and
             imported beers. We carry a wide variety of styles and sizes. Whether
             you're looking for a six-pack of your favorite beer, or a case of
             something new, we've got you covered. Our staff is always available
             to help you find the perfect beer for your needs.
-            </p>
+          </p>
         </div>
       </div>
     </>

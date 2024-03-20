@@ -32,10 +32,11 @@
     background-size: 50%;  
 }
 
-.wineText h1 {
+.wineText h1 a{
     font-size: 50px;
     font-weight: bold;
     color: #054581;
+    text-decoration: none;
 }
 
 .spiritsImg {
@@ -60,10 +61,11 @@
     background-position: center;
 }
 
-.spiritsText h1 {
+.spiritsText h1 a{
     font-size: 50px;
     font-weight: bold;
     color: #054581;
+    text-decoration: none;
 }
 
 .beerText {
@@ -83,8 +85,9 @@
     background-position: center;
 }
 
-.beerText h1 {
+.beerText h1 a{
     font-size: 50px;
     font-weight: bold;
     color: #054581;
+    text-decoration: none;
 }
