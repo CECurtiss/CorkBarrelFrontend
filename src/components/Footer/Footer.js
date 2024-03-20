@@ -39,6 +39,7 @@ const Footer = () => {
                   </Link>
                 </p>
                 <p>785-331-4242</p>
+                <h3>Downtown</h3>
                 <p>
                   <Link
                     to="https://maps.app.goo.gl/7zDNGEm7oHT4JGwN8"
