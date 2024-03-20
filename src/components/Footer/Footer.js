@@ -21,13 +21,13 @@ const Footer = () => {
           </div>
           <div>
             <div className="row">
-              <div className="col-4">
+              <div className="col-4 footerColumn">
                 <h2>Hours</h2>
                 <p>Monday - Saturday: 9am - 11pm</p>
                 <p>Sunday: 10am - 8pm</p>
               </div>
 
-              <div className="col-4">
+              <div className="col-4 footerColumn">
                 <h2>Locations</h2>
                 <h3>West</h3>
                 <p>

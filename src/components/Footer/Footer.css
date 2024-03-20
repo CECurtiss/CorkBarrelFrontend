@@ -8,6 +8,10 @@
     margin: 10px;
 }
 
+.iconLinks {
+    text-align: center;
+}
+
 .footerLogo {
     height: 100px;
     margin: 10px;
@@ -16,4 +20,10 @@
 .footerLogoDiv {
     display: flex;
     justify-content: center;
+}
+
+.footerColumn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
