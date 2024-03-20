@@ -20,6 +20,11 @@
 .footerLogoDiv {
     display: flex;
     justify-content: center;
+    border-bottom-style: solid;
+}
+
+.footerInfo {
+    padding-top: 20px;
 }
 
 .footerColumn {

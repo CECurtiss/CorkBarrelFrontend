@@ -20,7 +20,7 @@ const Footer = () => {
             ></img>
           </div>
           <div>
-            <div className="row">
+            <div className="row footerInfo">
               <div className="col-4 footerColumn">
                 <h2>Hours</h2>
                 <p>Monday - Saturday: 9am - 11pm</p>
