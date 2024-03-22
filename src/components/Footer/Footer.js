@@ -23,8 +23,18 @@ const Footer = () => {
             <div className="row footerInfo">
               <div className="col-4 footerColumnInfo">
                 <h2>More Information</h2>
-                <p><Link to="/AboutUs">About Us</Link></p>
-                <p>Sunday: 10am - 8pm</p>
+                <p>
+                  <Link to="/AboutUs">About Us</Link>
+                </p>
+                <p>
+                  <Link to="/Application">Online Application</Link>
+                </p>
+                <p>
+                  <Link to="/Donation">Donation Request</Link>
+                </p>
+                <p>
+                  <Link to="/Events">Events</Link>
+                </p>
               </div>
 
               <div className="col-4 footerColumnLoc">

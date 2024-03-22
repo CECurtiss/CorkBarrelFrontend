@@ -9,7 +9,9 @@
 }
 
 .iconLinks {
-    text-align: center;
+    display:flex;
+    justify-content: center;
+    align-items: center;    
 }
 
 .iconLinks h2 {
@@ -36,6 +38,11 @@
 .footerColumnInfo {
     display: flex;
     flex-direction: column;
+}
+
+.footerColumnInfo p a{
+    text-decoration: none;
+    color: white;
 }
 
 .footerColumnInfo h2 {
