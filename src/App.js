@@ -9,6 +9,7 @@ import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
 import Application from "./pages/Application";
 import DonationRequest from "./pages/DonationRequest";
+import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer/Footer.js";
 
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -27,6 +28,7 @@ function App() {
             <Route path="/Events" element={<Events />} />
             <Route path="/Application" element={<Application />} />
             <Route path="/Donation" element={<DonationRequest />} />
+            <Route path="/AboutUs" element={<AboutUs />} />
           </Routes>
         </div>
         <Footer />

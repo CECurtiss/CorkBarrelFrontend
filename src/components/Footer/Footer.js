@@ -21,9 +21,9 @@ const Footer = () => {
           </div>
           <div>
             <div className="row footerInfo">
-              <div className="col-4 footerColumnHrs">
-                <h2>Hours</h2>
-                <p>Monday - Saturday: 9am - 11pm</p>
+              <div className="col-4 footerColumnInfo">
+                <h2>More Information</h2>
+                <p><Link to="/AboutUs">About Us</Link></p>
                 <p>Sunday: 10am - 8pm</p>
               </div>
 

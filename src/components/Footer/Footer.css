@@ -33,16 +33,15 @@
     padding-top: 20px;
 }
 
-.footerColumnHrs {
+.footerColumnInfo {
     display: flex;
     flex-direction: column;
-    align-items: center;
 }
 
-.footerColumnHrs h2 {
+.footerColumnInfo h2 {
     margin-bottom: 20px;
     font-weight: bold;
-    color: white;
+    color: rgb(18, 80, 33);
 }
 
 .footerColumnLoc {
@@ -54,5 +53,10 @@
 .footerColumnLoc h2 {
     margin-bottom: 20px;
     font-weight: bold;
+    color: rgb(18, 80, 33);
+}
+
+.footerColumnLoc h3 a{
+    text-decoration: none;
     color: white;
 }
