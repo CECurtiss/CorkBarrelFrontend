@@ -2,7 +2,7 @@ import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 import Home from "./pages/Home/Home";
-import Wine from "./pages/Wine";
+import Wine from "./pages/Wine/Wine.js";
 import Beer from "./pages/Beer";
 import Spirits from "./pages/Spirits";
 import NavigationBar from "./components/Navbar/Nav.js";
