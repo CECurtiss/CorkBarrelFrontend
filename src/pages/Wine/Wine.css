@@ -20,11 +20,13 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    padding: 20px;
+    padding: 40px;
     background-color: #f8f9fa;
 }
 
 .VIPFormStyle {
+    box-shadow: 10px 10px 10px #888888;
+    border-radius: 30px;
     background-color: #054581;
     color: white;
     display: flex;
@@ -35,16 +37,23 @@
 }
 
 .VIPFormStyle input {
+    border-radius: 5px;
     width: 100%;
     padding: 5px;
     margin: 5px;
 }
 
 .VIPFormStyle button {
+    border-radius: 30px;
     width: 100%;
     padding: 5px;
-    margin: 5px;
+    margin-top: 20px;
+    background-color: rgb(120, 175, 58);
+    color: #f8f9fa;
+    font-weight: bold;
+}
+
+.VIPFormStyle button:hover {
     background-color: #f8f9fa;
     color: #054581;
-    font-weight: bold;
 }
