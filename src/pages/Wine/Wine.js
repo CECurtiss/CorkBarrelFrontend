@@ -8,7 +8,13 @@ const Wine = () => {
         <h1>Wine</h1>
       </div>
       <div className="col-12 VIPContainer">
-        <h2 className="col-6">VIP Wine Club Text</h2>
+        <h2 className="col-6 winePageIntroText">
+          Let the knowledgeable staff at Cork & Barrel Wine and Spirits help you
+          navigate our selection of over 2,200 different wines. Visit us today
+          and take advantage of our amazing service and competitive prices.
+          Wether you're buying your go-to wine, or looking for something
+          completely new, we've got a wine for you.
+        </h2>
         <form className="col-6 VIPFormStyle">
           <h2>Get Wine Updates!</h2>
           <h4>News From Cork & Barrel to your Inbox</h4>
@@ -23,12 +29,18 @@ const Wine = () => {
 
           <label>Email Lists</label>
           <label for="GeneralInterest">
-          <input type="checkbox" id="GeneralInterest" name="General Interest" />
-          General Interest</label>
+            <input
+              type="checkbox"
+              id="GeneralInterest"
+              name="General Interest"
+            />
+            General Interest
+          </label>
 
           <label for="VIPWineClub">
-          <input type="checkbox" id="VIPWineClub" name="VIP Wine Club" />
-          VIP Wine Club</label>
+            <input type="checkbox" id="VIPWineClub" name="VIP Wine Club" />
+            VIP Wine Club
+          </label>
 
           <button type="submit" value="Submit">
             Submit
