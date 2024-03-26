@@ -38,8 +38,27 @@
 
 .VIPFormStyle input {
     border-radius: 5px;
-    width: 100%;
+    width: 50%;
     padding: 5px;
+    margin: 5px;
+}
+
+.VIPFormStyle input {
+    margin-bottom: 10px;   
+}
+
+.VIPFormStyle input[type=checkbox] {
+    width: 40px;
+    height: 20px;
+}
+
+.VIPFormStyle label[for=GeneralInterest] {
+    font-size: 20px;
+    margin: 5px;
+}
+
+.VIPFormStyle label[for=VIPWineClub] {
+    font-size: 20px;
     margin: 5px;
 }
 
