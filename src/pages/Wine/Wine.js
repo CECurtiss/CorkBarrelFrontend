@@ -1,12 +1,12 @@
 import React from "react";
+import "./Wine.css";
 
 const Wine = () => {
   return (
     <div>
       <div className="wineHomeImg">
-        <p>some text</p>
+        <h1>Wine</h1>
       </div>
-      <h1>Wine Page</h1>
     </div>
   );
 };
