@@ -28,7 +28,7 @@ const Wine = () => {
           <input type="text" name="phone" />
 
           <label>Email Lists</label>
-          <label for="GeneralInterest">
+          <label className="checkboxLabel" htmlFor="GeneralInterest">
             <input
               type="checkbox"
               id="GeneralInterest"
@@ -37,7 +37,7 @@ const Wine = () => {
             General Interest
           </label>
 
-          <label for="VIPWineClub">
+          <label className="checkboxLabel" htmlFor="VIPWineClub">
             <input type="checkbox" id="VIPWineClub" name="VIP Wine Club" />
             VIP Wine Club
           </label>
@@ -46,6 +46,18 @@ const Wine = () => {
             Submit
           </button>
         </form>
+      </div>
+      <div className="reserveWallDiv">
+        <h1>Reserve Wall</h1>
+        <div>
+          <img
+            src="../../images/reservewall.jpg"
+            alt="Reserve Wall"
+          />
+        </div>
+      </div>
+      <div>
+        <p>some text</p>
       </div>
     </div>
   );

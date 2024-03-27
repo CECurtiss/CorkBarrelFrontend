@@ -64,12 +64,7 @@
     height: 20px;
 }
 
-.VIPFormStyle label[for=GeneralInterest] {
-    font-size: 20px;
-    margin: 5px;
-}
-
-.VIPFormStyle label[for=VIPWineClub] {
+.checkboxLabel {
     font-size: 20px;
     margin: 5px;
 }
@@ -87,4 +82,8 @@
 .VIPFormStyle button:hover {
     background-color: #f8f9fa;
     color: #054581;
+}
+
+.reserveWallDiv {
+    background-color:rgb(120, 175, 58);
 }
