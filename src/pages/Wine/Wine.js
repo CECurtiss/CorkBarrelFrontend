@@ -50,7 +50,8 @@ const Wine = () => {
         </form>
       </div>
       <div className="reserveWallDiv">
-        <h1 className="reserveWallHeading">Reserve Wall</h1>
+        <p>High End Selections</p>
+        <h1 className="reserveWallHeading">Reserve <br />Wall</h1>
         <div className="reserveWallImgDiv">
           <img
             className="reserveWallImg"
