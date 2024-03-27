@@ -1,4 +1,6 @@
 import React from "react";
+
+import reserveWall from "../../images/reservewall.jpg";
 import "./Wine.css";
 
 const Wine = () => {
@@ -48,10 +50,11 @@ const Wine = () => {
         </form>
       </div>
       <div className="reserveWallDiv">
-        <h1>Reserve Wall</h1>
-        <div>
+        <h1 className="reserveWallHeading">Reserve Wall</h1>
+        <div className="reserveWallImgDiv">
           <img
-            src="../../images/reservewall.jpg"
+            className="reserveWallImg"
+            src={reserveWall}
             alt="Reserve Wall"
           />
         </div>

@@ -14,6 +14,7 @@ a#basic-nav-dropdown {
     justify-content: center;
     top: 0;
     height: 124px;
+    z-index: 2;
 }
 
 /* spacing for navbar items */
