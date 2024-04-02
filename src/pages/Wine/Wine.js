@@ -4,6 +4,12 @@ import reserveWall from "../../images/reservewall.jpg";
 import "./Wine.css";
 
 const Wine = () => {
+
+  const handleClick = (e) => {
+    e.preventDefault();
+    alert("Thank you for signing up!");
+  };
+
   return (
     <div>
       <div className="wineHomeImg">
@@ -44,7 +50,7 @@ const Wine = () => {
             VIP Wine Club
           </label>
 
-          <button type="submit" value="Submit">
+          <button type="submit" value="Submit" onClick={handleClick}>
             Submit
           </button>
         </form>
