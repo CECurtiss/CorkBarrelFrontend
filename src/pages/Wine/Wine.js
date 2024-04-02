@@ -1,5 +1,6 @@
 import React from "react";
 
+import organicWine from "../../images/organicWine.jpg";
 import reserveWall from "../../images/reservewall.jpg";
 import "./Wine.css";
 
@@ -54,6 +55,7 @@ const Wine = () => {
           </button>
         </form>
       </div>
+
       <div className="reserveWallDiv">
         <p>High End Selections</p>
         <h1 className="reserveWallHeading">Reserve Wall</h1>
@@ -71,7 +73,14 @@ const Wine = () => {
           />
         </div>
       </div>
+
       <div>
+        <div className="organicWineDiv">
+          <img
+          className="organicWineImg"
+          src={organicWine}
+          alt="Organic Wine Img" />
+        </div>
         <p>some text</p>
       </div>
     </div>
