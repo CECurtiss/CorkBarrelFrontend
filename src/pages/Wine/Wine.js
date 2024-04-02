@@ -57,7 +57,7 @@ const Wine = () => {
       </div>
       <div className="reserveWallDiv">
         <p>High End Selections</p>
-        <h1 className="reserveWallHeading">Reserve <br />Wall</h1>
+        <h1 className="reserveWallHeading">Reserve Wall</h1>
         <div className="reserveWallImgDiv">
           <img
             className="reserveWallImg"
