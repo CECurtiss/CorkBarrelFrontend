@@ -4,7 +4,6 @@ import reserveWall from "../../images/reservewall.jpg";
 import "./Wine.css";
 
 const Wine = () => {
-
   const handleClick = (e) => {
     e.preventDefault();
     alert("Thank you for signing up!");
@@ -59,6 +58,12 @@ const Wine = () => {
         <p>High End Selections</p>
         <h1 className="reserveWallHeading">Reserve Wall</h1>
         <div className="reserveWallImgDiv">
+          <h3 className="reserveWallText">
+            Looking for high-end wines? We have an entire wall of them. Full of
+            hard-to-find library releases and allocated bottles, come see what
+            the reserve wall has to offer you.
+          </h3>
+
           <img
             className="reserveWallImg"
             src={reserveWall}

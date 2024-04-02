@@ -131,3 +131,12 @@
     margin-right: 50px;
     z-index: 1;
 }
+
+.reserveWallText {
+    font-size: 30px;
+    padding: 20px;
+    text-align: center;
+    margin: auto;
+    font-family: arial, sans-serif;
+    color: white;
+    line-height: 2;}
