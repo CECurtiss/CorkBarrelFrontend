@@ -75,11 +75,21 @@ const Wine = () => {
       </div>
 
       <div>
-        <div className="organicWineDiv">
-          <img
-          className="organicWineImg"
-          src={organicWine}
-          alt="Organic Wine Img" />
+        <div className="organicWineSection">
+          <h1>Organic, Biodynamic, & Natural Wine</h1>
+          <div className="organicWineDiv">
+            <h3>
+              We have a wide selection of organic, biodynamic, and natural wines
+              for you to choose from. Whether you're looking for a sulfite-free
+              wine, or a wine made with organic grapes, we have what you're
+              looking for.
+            </h3>
+            <img
+              className="organicWineImg"
+              src={organicWine}
+              alt="Organic Wine Img"
+            />
+          </div>
         </div>
         <p>some text</p>
       </div>
