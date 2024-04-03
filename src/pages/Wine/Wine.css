@@ -148,8 +148,16 @@
     background-color: #f8f9fa;
 }
 
+.organicWineSection h1{
+    font-family: "Cedarville Cursive", cursive;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 80px;
+    padding-left: 10%;
+}
 .organicWineDiv {
     display: flex;
     justify-content: center;
     align-items: center;
-    padding: 40px;}
+    padding: 40px;
+}
