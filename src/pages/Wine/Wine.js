@@ -83,7 +83,7 @@ const Wine = () => {
               src={organicWine}
               alt="Organic Wine Img"
               />
-              <h3>
+              <h3 className="organicWineText">
                 We have a wide selection of organic, biodynamic, and natural wines
                 for you to choose from. Whether you're looking for a sulfite-free
                 wine, or a wine made with organic grapes, we have what you're

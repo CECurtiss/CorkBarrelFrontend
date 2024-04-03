@@ -161,3 +161,21 @@
     align-items: center;
     padding: 40px;
 }
+
+.organicWineText {
+    font-size: 30px;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    font-family: arial, sans-serif;
+    line-height: 2;
+    text-align: center;
+}
+
+.organicWineImg {
+    width: 50%;
+    height: auto;
+    margin-right: 50px;
+}
