@@ -4,7 +4,9 @@ import "./Spirits.css";
 const Spirits = () => {
     return (
         <div>
-        <h1>Spirits Page</h1>
+        <div className="spiritsHomeImg">
+            <h1>Spirits</h1>
+        </div>
         </div>
     );
     }
