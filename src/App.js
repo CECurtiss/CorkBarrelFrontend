@@ -4,7 +4,7 @@ import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import Home from "./pages/Home/Home";
 import Wine from "./pages/Wine/Wine.js";
 import Beer from "./pages/Beer";
-import Spirits from "./pages/Spirits";
+import Spirits from "./pages/Spirits/Spirits.js";
 import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
 import Application from "./pages/Application";
