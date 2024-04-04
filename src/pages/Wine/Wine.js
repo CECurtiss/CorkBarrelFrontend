@@ -82,19 +82,29 @@ const Wine = () => {
               className="organicWineImg"
               src={organicWine}
               alt="Organic Wine Img"
-              />
-              <h3 className="organicWineText">
-                We have a wide selection of organic, biodynamic, and natural wines
-                for you to choose from. Whether you're looking for a sulfite-free
-                wine, or a wine made with organic grapes, we have what you're
-                looking for.
-              </h3>
+            />
+            <h3 className="organicWineText">
+              We have a wide selection of organic, biodynamic, and natural wines
+              for you to choose from. Whether you're looking for a sulfite-free
+              wine, or a wine made with organic grapes, we have what you're
+              looking for.
+            </h3>
           </div>
         </div>
 
         <div className="vipClubSection">
-
-        <h1>Join Our VIP Wine Club</h1>
+          <div className="vipTextSection col-12">
+            <h1>Join Our VIP Wine Club</h1>
+            <ul>
+              <li>10% OFF when you buy 6 containers of wine</li>
+              <li>Exclusive club offers on featured wines</li>
+              <li>
+                Access your personal wine purchase history when you use your VIP
+                account
+              </li>
+              <li>Notification of limited/allocated wine arrivals</li>
+            </ul>
+          </div>
         </div>
       </div>
     </div>
