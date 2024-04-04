@@ -91,7 +91,11 @@ const Wine = () => {
               </h3>
           </div>
         </div>
-        <p>some text</p>
+
+        <div className="vipClubSection">
+
+        <h1>Join Our VIP Wine Club</h1>
+        </div>
       </div>
     </div>
   );
