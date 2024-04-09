@@ -25,6 +25,18 @@
   background-color: #f8f9fa;
 }
 
+.spiritsPageIntroText {
+  font-size: 30px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  font-family: arial, sans-serif;
+  line-height: 2;
+  text-align: center;
+}
+
 .highEndSpirits {
   background-color: rgb(120, 175, 58);
   z-index: -1;
