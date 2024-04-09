@@ -22,8 +22,14 @@ const Beer = () => {
 
       <div className="singleBeersSection">
         <div className="singleBeersTextSection col-12">
-            <h1>BUILD YOUR OWN 6PK</h1>
-            </div>
+          <h1>BUILD YOUR OWN 6PK</h1>
+          <p className="singleBeersParagraph">
+            We have 7 cooler doors full of single crafts and imports for you to
+            explore. Stock changes all the time, but rest assured knowing that
+            you will have over 400 cold beers to choose from. Get 6 or more and
+            receive a 10% DISCOUNT every day.
+          </p>
+        </div>
       </div>
     </div>
   );
