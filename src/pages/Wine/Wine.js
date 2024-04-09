@@ -55,6 +55,20 @@ const Wine = () => {
           </button>
         </form>
       </div>
+        <div className="vipClubSection">
+          <div className="vipTextSection col-12">
+            <h1>Join Our VIP Wine Club</h1>
+            <ul>
+              <li>10% OFF when you buy 6 containers of wine</li>
+              <li>Exclusive club offers on featured wines</li>
+              <li>
+                Access your personal wine purchase history when you use your VIP
+                account
+              </li>
+              <li>Notification of limited/allocated wine arrivals</li>
+            </ul>
+          </div>
+        </div>
 
       <div className="reserveWallDiv">
         <p>High End Selections</p>
@@ -92,20 +106,6 @@ const Wine = () => {
           </div>
         </div>
 
-        <div className="vipClubSection">
-          <div className="vipTextSection col-12">
-            <h1>Join Our VIP Wine Club</h1>
-            <ul>
-              <li>10% OFF when you buy 6 containers of wine</li>
-              <li>Exclusive club offers on featured wines</li>
-              <li>
-                Access your personal wine purchase history when you use your VIP
-                account
-              </li>
-              <li>Notification of limited/allocated wine arrivals</li>
-            </ul>
-          </div>
-        </div>
       </div>
     </div>
   );
