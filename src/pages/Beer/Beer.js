@@ -1,11 +1,14 @@
-import React from "react"; 
+import React from "react";
 
+import "./Beer.css";
 const Beer = () => {
-    return (
-        <div>
-        <h1>Beer Page</h1>
-        </div>
-    );
-    }
+  return (
+    <div>
+      <div className="beerHomeImg">
+        <h1>Beer</h1>
+      </div>
+    </div>
+  );
+};
 
-    export default Beer;
+export default Beer;
