@@ -17,13 +17,14 @@ const Beer = () => {
           Wether you're buying your go-to beer, or looking for something
           completely new, we've got a beer for you.
         </h2>
-        <img
-            className="col-6 beerCaveImg"
-            src={beerCave}
-            alt="Beer Cave"
-        ></img>
-    </div>
-    
+        <img className="col-6 beerCaveImg" src={beerCave} alt="Beer Cave"></img>
+      </div>
+
+      <div className="singleBeersSection">
+        <div className="singleBeersTextSection col-12">
+            <h1>BUILD YOUR OWN 6PK</h1>
+            </div>
+      </div>
     </div>
   );
 };

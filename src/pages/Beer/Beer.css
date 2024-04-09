@@ -36,3 +36,25 @@
     line-height: 2;
     text-align: center;
   }
+
+  .singleBeersSection {
+    height: 400px;
+    background-image: url(../../images/singlescooler.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    display: flex;
+    margin: 50px;
+  }
+
+  .singleBeersTextSection {
+      align-self: last baseline;
+      color: #054581;
+      font-family: bold "Open Sans";
+      text-shadow: -2px -2px 10px rgb(120, 175, 58), 2px -2px 10px rgb(120, 175, 58), -2px 2px 0 rgb(120, 175, 58), 2px 2px 0 rgb(120, 175, 58);
+  }
+
+  .singleBeersTextSection h1 {
+      font-size: 100px;
+      font-weight: bold;
+      width: 100%;
+    }
