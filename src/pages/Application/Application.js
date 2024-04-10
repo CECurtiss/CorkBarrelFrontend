@@ -7,6 +7,10 @@ import Col from "react-bootstrap/Col";
 import Row from "react-bootstrap/Row";
 
 const Application = () => {
+    const applicationSubmit = (e) => {
+        alert("Application Submitted");
+    };
+
   return (
     <div className="formContainer">
       <h1>Online Application</h1>
@@ -170,16 +174,26 @@ const Application = () => {
           </Row>
         </Form.Group>
 
-        <Form.Group className="preferredLocationCheckbox mb-3" controlId="formBasicPreferredLocation">
-          <Form.Label className="preferredLocationHeader">Preferred Location</Form.Label>
+        <Form.Group
+          className="preferredLocationCheckbox mb-3"
+          controlId="formBasicPreferredLocation"
+        >
+          <Form.Label className="preferredLocationHeader">
+            Preferred Location
+          </Form.Label>
           <Col className="d-flex flex-column align-items-center">
-          <Form.Check type="checkbox" label="Either Location" />
-          <Form.Check type="checkbox" label="9th & Mississippi" />
-          <Form.Check type="checkbox" label="23rd & Iowa" />
+            <Form.Check type="checkbox" label="Either Location" />
+            <Form.Check type="checkbox" label="9th & Mississippi" />
+            <Form.Check type="checkbox" label="23rd & Iowa" />
           </Col>
         </Form.Group>
 
-        <Button variant="primary" type="submit">
+        <Button
+          onClick={applicationSubmit}
+          className="onlineApplicationSubmit"
+          variant="primary"
+          type="submit"
+        >
           Submit
         </Button>
       </Form>

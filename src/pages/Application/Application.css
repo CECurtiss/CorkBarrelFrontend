@@ -36,3 +36,13 @@
     text-align: center;
     width: 100%;
 }
+
+.onlineApplicationSubmit {
+    margin-top: 20px;
+    background-color: #f7b733;
+    color: white;
+    font-size: 20px;
+    padding: 10px;
+    border-radius: 5px;
+    width: 100%;
+}
