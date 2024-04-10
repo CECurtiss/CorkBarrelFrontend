@@ -170,11 +170,13 @@ const Application = () => {
           </Row>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPreferredLocation">
-          <Form.Label>Preferred Location</Form.Label>
+        <Form.Group className="preferredLocationCheckbox mb-3" controlId="formBasicPreferredLocation">
+          <Form.Label className="preferredLocationHeader">Preferred Location</Form.Label>
+          <Col className="d-flex flex-column align-items-center">
           <Form.Check type="checkbox" label="Either Location" />
           <Form.Check type="checkbox" label="9th & Mississippi" />
           <Form.Check type="checkbox" label="23rd & Iowa" />
+          </Col>
         </Form.Group>
 
         <Button variant="primary" type="submit">
