@@ -2,6 +2,7 @@ import React from "react";
 import "./Application.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
+import FloatingLabel from "react-bootstrap/FloatingLabel";
 
 const Application = () => {
   return (
@@ -9,68 +10,86 @@ const Application = () => {
       <h1>Online Application</h1>
       <Form>
         <Form.Group className="mb-3" controlId="formBasicFirstName">
-          <Form.Label>First Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter First Name" />
+          <FloatingLabel controlId="floatingInput" label="First Name">
+            <Form.Control type="text" placeholder="Enter First Name" />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicLastName">
-          <Form.Label>Last Name</Form.Label>
-          <Form.Control type="text" placeholder="Enter Last Name" />
+          <FloatingLabel controlId="floatingInput" label="Last Name">
+            <Form.Control type="text" placeholder="Enter Last Name" />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicDOB">
-          <Form.Label>Date of Birth</Form.Label>
-          <Form.Control type="date" />
+          <FloatingLabel controlId="floatingInput" label="Date of Birth">
+            <Form.Control type="date" />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicAddress">
-          <Form.Label>Address</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Address">
           <Form.Control type="text" placeholder="Enter Address" />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicCity">
-          <Form.Label>City</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="City">
           <Form.Control type="text" placeholder="Enter City" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicState">
-          <Form.Label>State</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="State">
           <Form.Control type="text" placeholder="Enter State" />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicZip">
-          <Form.Label>Zip Code</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Zip Code">
           <Form.Control type="text" placeholder="Enter Zip Code" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPhone">
-          <Form.Label>Phone Number</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Phone Number">
           <Form.Control type="text" placeholder="Enter Phone Number" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEmail">
-          <Form.Label>Email</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Email">
           <Form.Control type="email" placeholder="Enter Email" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicEducation">
-          <Form.Label>Education</Form.Label>
-          <Form.Control type="text" placeholder="Enter Education" />
+          <FloatingLabel controlId="floatingInput" label="Education">
+          <Form.Control
+            as="textarea"
+            type="text"
+            placeholder="Enter Education"
+            rows={3}
+          />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicWorkExperience">
-          <Form.Label>Work Experience</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Work Experience">
           <Form.Control type="text" placeholder="Enter Work Experience" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicSkills">
-          <Form.Label>Skills</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="Skills">
           <Form.Control type="text" placeholder="Enter Skills" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicReferences">
-          <Form.Label>References</Form.Label>
+          <FloatingLabel controlId="floatingInput" label="References">
           <Form.Control type="text" placeholder="Enter References" />
+            </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicAvailability">
@@ -92,16 +111,15 @@ const Application = () => {
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPreferredLocation">
-            <Form.Label>Preferred Location</Form.Label>
+          <Form.Label>Preferred Location</Form.Label>
           <Form.Check type="checkbox" label="Either Location" />
           <Form.Check type="checkbox" label="9th & Mississippi" />
           <Form.Check type="checkbox" label="23rd & Iowa" />
         </Form.Group>
 
         <Button variant="primary" type="submit">
-            Submit
+          Submit
         </Button>
-        
       </Form>
     </div>
   );
