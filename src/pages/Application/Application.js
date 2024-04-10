@@ -46,45 +46,56 @@ const Application = () => {
         </Row>
 
         <Row>
-            <Col>
-        <Form.Group className="mb-3" controlId="formBasicAddress">
-          <FloatingLabel controlId="floatingInput" label="Address">
-            <Form.Control type="text" placeholder="Enter Address" />
-          </FloatingLabel>
-        </Form.Group>
+          <Col>
+            <Form.Group className="mb-3" controlId="formBasicAddress">
+              <FloatingLabel controlId="floatingInput" label="Address">
+                <Form.Control type="text" placeholder="Enter Address" />
+              </FloatingLabel>
+            </Form.Group>
 
-        <Form.Group className="mb-5" controlId="formBasicAddress2">
-          <FloatingLabel controlId="floatingInput" label="Address 2">
-            <Form.Control type="text" placeholder="Enter Address 2" />
-          </FloatingLabel>
-        </Form.Group>
-        </Col>
+            <Form.Group className="mb-5" controlId="formBasicAddress2">
+              <FloatingLabel controlId="floatingInput" label="Address 2">
+                <Form.Control type="text" placeholder="Enter Address 2" />
+              </FloatingLabel>
+            </Form.Group>
+          </Col>
 
-        <Col>
-        <Row>
-          <Form.Group as={Col} className="mt-4 mb-3" controlId="formBasicCity">
-            <FloatingLabel controlId="floatingInput" label="City">
-              <Form.Control type="text" placeholder="Enter City" />
-            </FloatingLabel>
-          </Form.Group>
+          <Col>
+            <Row>
+              <Form.Group
+                as={Col}
+                className="mt-4 mb-3"
+                controlId="formBasicCity"
+              >
+                <FloatingLabel controlId="floatingInput" label="City">
+                  <Form.Control type="text" placeholder="Enter City" />
+                </FloatingLabel>
+              </Form.Group>
 
-          <Form.Group as={Col} className="mt-4 mb-3" controlId="formBasicState">
-            <FloatingLabel controlId="floatingInput" label="State">
-              <Form.Control type="text" placeholder="Enter State" />
-            </FloatingLabel>
-          </Form.Group>
+              <Form.Group
+                as={Col}
+                className="mt-4 mb-3"
+                controlId="formBasicState"
+              >
+                <FloatingLabel controlId="floatingInput" label="State">
+                  <Form.Control type="text" placeholder="Enter State" />
+                </FloatingLabel>
+              </Form.Group>
 
-          <Form.Group as={Col} className="mt-4 mb-5" controlId="formBasicZip">
-            <FloatingLabel controlId="floatingInput" label="Zip Code">
-              <Form.Control type="text" placeholder="Enter Zip Code" />
-            </FloatingLabel>
-          </Form.Group>
-          </Row>
-        </Col>
+              <Form.Group
+                as={Col}
+                className="mt-4 mb-5"
+                controlId="formBasicZip"
+              >
+                <FloatingLabel controlId="floatingInput" label="Zip Code">
+                  <Form.Control type="text" placeholder="Enter Zip Code" />
+                </FloatingLabel>
+              </Form.Group>
+            </Row>
+          </Col>
         </Row>
 
-
-        <Form.Group className="mb-3" controlId="formBasicEducation">
+        <Form.Group className="mb-5" controlId="formBasicEducation">
           <FloatingLabel controlId="floatingInput" label="Education">
             <Form.Control
               as="textarea"
@@ -95,7 +106,7 @@ const Application = () => {
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicWorkExperience">
+        <Form.Group className="mb-5" controlId="formBasicWorkExperience">
           <FloatingLabel controlId="floatingInput" label="Work Experience">
             <Form.Control
               as="textarea"
@@ -106,7 +117,7 @@ const Application = () => {
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicSkills">
+        <Form.Group className="mb-5" controlId="formBasicSkills">
           <FloatingLabel controlId="floatingInput" label="Skills">
             <Form.Control
               as="textarea"
@@ -117,7 +128,7 @@ const Application = () => {
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicReferences">
+        <Form.Group className="mb-5" controlId="formBasicReferences">
           <FloatingLabel controlId="floatingInput" label="References">
             <Form.Control
               as="textarea"
@@ -128,22 +139,35 @@ const Application = () => {
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicAvailability">
-          <Form.Label>Availability</Form.Label>
-          <Form.Check type="checkbox" label="Monday AM" />
-          <Form.Check type="checkbox" label="Monday PM" />
-          <Form.Check type="checkbox" label="Tuesday AM" />
-          <Form.Check type="checkbox" label="Tuesday PM" />
-          <Form.Check type="checkbox" label="Wednesday AM" />
-          <Form.Check type="checkbox" label="Wednesday PM" />
-          <Form.Check type="checkbox" label="Thursday AM" />
-          <Form.Check type="checkbox" label="Thursday PM" />
-          <Form.Check type="checkbox" label="Friday AM" />
-          <Form.Check type="checkbox" label="Friday PM" />
-          <Form.Check type="checkbox" label="Saturday AM" />
-          <Form.Check type="checkbox" label="Saturday PM" />
-          <Form.Check type="checkbox" label="Sunday AM" />
-          <Form.Check type="checkbox" label="Sunday PM" />
+        <Form.Group
+          className="availabilityCheckbox mb-3"
+          controlId="formBasicAvailability"
+        >
+          <Row>
+            <Form.Label className="availabilityHeader">
+              Availability (Check all that apply)
+            </Form.Label>
+          </Row>
+          <Row>
+            <Col className="d-flex flex-column align-items-center">
+              <Form.Check type="checkbox" label="Monday AM" />
+              <Form.Check type="checkbox" label="Monday PM" />
+              <Form.Check type="checkbox" label="Tuesday AM" />
+              <Form.Check type="checkbox" label="Tuesday PM" />
+              <Form.Check type="checkbox" label="Wednesday AM" />
+              <Form.Check type="checkbox" label="Wednesday PM" />
+              <Form.Check type="checkbox" label="Thursday AM" />
+              <Form.Check type="checkbox" label="Thursday PM" />
+            </Col>
+            <Col className="d-flex flex-column align-items-center">
+              <Form.Check type="checkbox" label="Friday AM" />
+              <Form.Check type="checkbox" label="Friday PM" />
+              <Form.Check type="checkbox" label="Saturday AM" />
+              <Form.Check type="checkbox" label="Saturday PM" />
+              <Form.Check type="checkbox" label="Sunday AM" />
+              <Form.Check type="checkbox" label="Sunday PM" />
+            </Col>
+          </Row>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicPreferredLocation">
