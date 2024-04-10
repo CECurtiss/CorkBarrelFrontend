@@ -3,93 +3,122 @@ import "./Application.css";
 import Form from "react-bootstrap/Form";
 import Button from "react-bootstrap/Button";
 import FloatingLabel from "react-bootstrap/FloatingLabel";
+import Col from "react-bootstrap/Col";
+import Row from "react-bootstrap/Row";
 
 const Application = () => {
   return (
-    <div>
+    <div className="formContainer">
       <h1>Online Application</h1>
       <Form>
-        <Form.Group className="mb-3" controlId="formBasicFirstName">
-          <FloatingLabel controlId="floatingInput" label="First Name">
-            <Form.Control type="text" placeholder="Enter First Name" />
-          </FloatingLabel>
-        </Form.Group>
+        <Row>
+          <Form.Group as={Col} className="mb-3" controlId="formBasicFirstName">
+            <FloatingLabel controlId="floatingInput" label="First Name">
+              <Form.Control type="text" placeholder="Enter First Name" />
+            </FloatingLabel>
+          </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicLastName">
-          <FloatingLabel controlId="floatingInput" label="Last Name">
-            <Form.Control type="text" placeholder="Enter Last Name" />
-          </FloatingLabel>
-        </Form.Group>
+          <Form.Group as={Col} className="mb-3" controlId="formBasicLastName">
+            <FloatingLabel controlId="floatingInput" label="Last Name">
+              <Form.Control type="text" placeholder="Enter Last Name" />
+            </FloatingLabel>
+          </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicDOB">
-          <FloatingLabel controlId="floatingInput" label="Date of Birth">
-            <Form.Control type="date" />
-          </FloatingLabel>
-        </Form.Group>
+          <Form.Group as={Col} className="mb-3" controlId="formBasicDOB">
+            <FloatingLabel controlId="floatingInput" label="Date of Birth">
+              <Form.Control type="date" />
+            </FloatingLabel>
+          </Form.Group>
+        </Row>
 
         <Form.Group className="mb-3" controlId="formBasicAddress">
           <FloatingLabel controlId="floatingInput" label="Address">
-          <Form.Control type="text" placeholder="Enter Address" />
+            <Form.Control type="text" placeholder="Enter Address" />
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicCity">
-          <FloatingLabel controlId="floatingInput" label="City">
-          <Form.Control type="text" placeholder="Enter City" />
-            </FloatingLabel>
-        </Form.Group>
-
-        <Form.Group className="mb-3" controlId="formBasicState">
-          <FloatingLabel controlId="floatingInput" label="State">
-          <Form.Control type="text" placeholder="Enter State" />
+        <Form.Group className="mb-3" controlId="formBasicAddress2">
+          <FloatingLabel controlId="floatingInput" label="Address 2">
+            <Form.Control type="text" placeholder="Enter Address 2" />
           </FloatingLabel>
         </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicZip">
-          <FloatingLabel controlId="floatingInput" label="Zip Code">
-          <Form.Control type="text" placeholder="Enter Zip Code" />
+        <Row>
+          <Form.Group as={Col} className="mb-3" controlId="formBasicCity">
+            <FloatingLabel controlId="floatingInput" label="City">
+              <Form.Control type="text" placeholder="Enter City" />
             </FloatingLabel>
-        </Form.Group>
+          </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicPhone">
-          <FloatingLabel controlId="floatingInput" label="Phone Number">
-          <Form.Control type="text" placeholder="Enter Phone Number" />
+          <Form.Group as={Col} className="mb-3" controlId="formBasicState">
+            <FloatingLabel controlId="floatingInput" label="State">
+              <Form.Control type="text" placeholder="Enter State" />
             </FloatingLabel>
-        </Form.Group>
+          </Form.Group>
 
-        <Form.Group className="mb-3" controlId="formBasicEmail">
-          <FloatingLabel controlId="floatingInput" label="Email">
-          <Form.Control type="email" placeholder="Enter Email" />
+          <Form.Group as={Col} className="mb-3" controlId="formBasicZip">
+            <FloatingLabel controlId="floatingInput" label="Zip Code">
+              <Form.Control type="text" placeholder="Enter Zip Code" />
             </FloatingLabel>
-        </Form.Group>
+          </Form.Group>
+        </Row>
+
+        <Row>
+          <Form.Group as={Col} className="mb-3" controlId="formBasicEmail">
+            <FloatingLabel controlId="floatingInput" label="Email">
+              <Form.Control type="email" placeholder="Enter Email" />
+            </FloatingLabel>
+          </Form.Group>
+
+          <Form.Group as={Col} className="mb-3" controlId="formBasicPhone">
+            <FloatingLabel controlId="floatingInput" label="Phone Number">
+              <Form.Control type="text" placeholder="Enter Phone Number" />
+            </FloatingLabel>
+          </Form.Group>
+        </Row>
 
         <Form.Group className="mb-3" controlId="formBasicEducation">
           <FloatingLabel controlId="floatingInput" label="Education">
-          <Form.Control
-            as="textarea"
-            type="text"
-            placeholder="Enter Education"
-            rows={3}
-          />
-            </FloatingLabel>
+            <Form.Control
+              as="textarea"
+              rows={3}
+              type="text"
+              placeholder="Enter Education"
+            />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicWorkExperience">
           <FloatingLabel controlId="floatingInput" label="Work Experience">
-          <Form.Control type="text" placeholder="Enter Work Experience" />
-            </FloatingLabel>
+            <Form.Control
+              as="textarea"
+              rows={3}
+              type="text"
+              placeholder="Enter Work Experience"
+            />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicSkills">
           <FloatingLabel controlId="floatingInput" label="Skills">
-          <Form.Control type="text" placeholder="Enter Skills" />
-            </FloatingLabel>
+            <Form.Control
+              as="textarea"
+              rows={3}
+              type="text"
+              placeholder="Enter Skills"
+            />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicReferences">
           <FloatingLabel controlId="floatingInput" label="References">
-          <Form.Control type="text" placeholder="Enter References" />
-            </FloatingLabel>
+            <Form.Control
+              as="textarea"
+              row={3}
+              type="text"
+              placeholder="Enter References"
+            />
+          </FloatingLabel>
         </Form.Group>
 
         <Form.Group className="mb-3" controlId="formBasicAvailability">
