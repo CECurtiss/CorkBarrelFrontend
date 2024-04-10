@@ -7,7 +7,7 @@ import Beer from "./pages/Beer/Beer.js";
 import Spirits from "./pages/Spirits/Spirits.js";
 import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
-import Application from "./pages/Application";
+import Application from "./pages/Application/Application.js";
 import DonationRequest from "./pages/DonationRequest";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer/Footer.js";
