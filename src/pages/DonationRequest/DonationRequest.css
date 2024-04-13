@@ -1,0 +1,35 @@
+.donationContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-top: 50px;
+}
+
+.donationContainer h1 {
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+}
+
+.donationContainer p {
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+    padding: 0px 300px 0px 300px;
+}
+
+.donationInputContainer{
+    color: white;
+    background-color:#054581;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.donationButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+}
