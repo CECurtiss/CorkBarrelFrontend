@@ -8,7 +8,7 @@ import Spirits from "./pages/Spirits/Spirits.js";
 import NavigationBar from "./components/Navbar/Nav.js";
 import Events from "./pages/Events";
 import Application from "./pages/Application/Application.js";
-import DonationRequest from "./pages/DonationRequest";
+import DonationRequest from "./pages/DonationRequest/DonationRequest.js";
 import AboutUs from "./pages/AboutUs";
 import Footer from "./components/Footer/Footer.js";
 
