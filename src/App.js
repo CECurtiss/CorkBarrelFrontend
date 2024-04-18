@@ -1,5 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
+import ScrollButton from "./components/ScrollButton";
 
 import Home from "./pages/Home/Home";
 import Wine from "./pages/Wine/Wine.js";
@@ -31,6 +32,7 @@ function App() {
             <Route path="/AboutUs" element={<AboutUs />} />
           </Routes>
         </div>
+        <ScrollButton />
         <Footer />
       </Router>
     </>
