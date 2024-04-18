@@ -1,6 +1,6 @@
 import React from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
-import ScrollButton from "./components/ScrollButton";
+import ScrollButton from "./components/ScrollButton/ScrollButton.js";
 
 import Home from "./pages/Home/Home";
 import Wine from "./pages/Wine/Wine.js";

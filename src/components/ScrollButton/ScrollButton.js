@@ -1,5 +1,6 @@
 import { useState } from "react";
 
+import "./ScrollButton.css";
 const ScrollButton = () => {
   const [visible, setVisible] = useState(false);
 
@@ -21,26 +22,12 @@ const ScrollButton = () => {
 
   window.addEventListener("scroll", toggleVisible);
 
-  const buttonStyle = {
-    position: "fixed",
-    width: "50px",
-    height: "50px",
-    bottom: "40px",
-    right: "40px",
-    background: "#0C9",
-    color: "#fff",
-    borderRadius: "50px",
-    textAlign: "center",
-    fontSize: "30px",
-    zIndex: "1000",
-    display: visible ? "inline" : "none",
-  };
-
   return (
     <button
-      className= {buttonStyle}
+      className="scroll-to-top"
       onClick={scrollToTop}
-    >button</button>
+      style={{ display: visible ? "inline" : "none" }}
+    >^</button>
   );
 };
 
