@@ -4,9 +4,10 @@
     margin: 0;
 }
 
-.wineAislesImg {
+.wineAisles {
     width: auto;
-    height: auto;
+    height: 100;
+    box-shadow: 10px 5px 5px grey;
 }
 
 .categoryDiv {
@@ -42,6 +43,7 @@
 .spiritsImg {
     width: auto;
     height: auto;
+    box-shadow: 10px 5px 5px grey;
 }
 
 .spiritsText {
@@ -68,6 +70,11 @@
     text-decoration: none;
 }
 
+.coolerdoors {
+    width: auto;
+    height: auto;
+    box-shadow: 10px 5px 5px grey;
+}
 .beerText {
     font-size: 30px;
     padding: 20px;
