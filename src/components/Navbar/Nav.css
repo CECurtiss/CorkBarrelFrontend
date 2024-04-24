@@ -1,5 +1,5 @@
 /* overriding user agent stylesheet */
-a#basic-nav-dropdown {
+#basic-nav-dropdown {
     text-decoration: none;
     font-family: georgia;
     font-size: 35px;

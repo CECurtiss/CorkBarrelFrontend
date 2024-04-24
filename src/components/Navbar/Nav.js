@@ -1,4 +1,5 @@
 import React from "react";
+import { useState } from "react";
 import { NavLink, Link } from "react-router-dom";
 import { Nav, Navbar, NavDropdown } from "react-bootstrap";
 
@@ -6,6 +7,7 @@ import corkbarrellogo from "../../images/corkbarrellogo.webp";
 import "./Nav.css";
 
 const NavigationBar = () => {
+  const [expanded, setExpanded] = useState(false);
   const imgStyle = {
     height: "100px",
     width: "375px",
@@ -14,7 +16,7 @@ const NavigationBar = () => {
   };
 
   return (
-    <Navbar style={{ position: "sticky"}} className="navbarStyle">
+    <Navbar style={{ position: "sticky" }} className="navbarStyle">
       <Nav className="menuItemStyle">
         <div>
           <NavLink to="/Wine" className="linkStyle">
@@ -29,7 +31,7 @@ const NavigationBar = () => {
             <p className="menuItem">Spirits</p>
           </NavLink>
         </div>
-      </Nav>     
+      </Nav>
 
       <Nav className="menuItemStyle">
         <NavLink to="/">
@@ -45,11 +47,23 @@ const NavigationBar = () => {
         </div>
       </Nav>
 
-      <Nav style={{ marginBottom: "1rem"}} className="menuItemStyle">
-        <NavDropdown title="More" id="basic-nav-dropdown">
-          <NavDropdown.Item as={Link} to="/Events">Upcoming Events</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/Application">Online Application</NavDropdown.Item>
-          <NavDropdown.Item as={Link} to="/Donation">Donation Request</NavDropdown.Item>
+      <Nav style={{ marginBottom: "1rem" }} className="menuItemStyle">
+        <NavDropdown
+          onMouseLeave={() => setExpanded(false)}
+          onMouseEnter={() => setExpanded(true)}
+          show={expanded}
+          title="More"
+          id="basic-nav-dropdown"
+        >
+          <NavDropdown.Item as={Link} to="/Events">
+            Upcoming Events
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Application">
+            Online Application
+          </NavDropdown.Item>
+          <NavDropdown.Item as={Link} to="/Donation">
+            Donation Request
+          </NavDropdown.Item>
         </NavDropdown>
       </Nav>
     </Navbar>
