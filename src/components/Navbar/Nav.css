@@ -7,6 +7,22 @@
     text-shadow: 1px 1px 2px white;
 }
 
+a.dropdown-item {
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 20px;
+    color: #054581;
+    text-shadow: 1px 1px 2px white;
+}
+
+a.dropdown-item:hover {
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 20px;
+    color: #054581;
+    background-color:rgb(120, 175, 58);
+}
+
 /* styling for navbar */
 .navbarStyle {
     display: flex;
