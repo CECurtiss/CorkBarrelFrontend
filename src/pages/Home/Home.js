@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { Link } from "react-router-dom";
 
 import "./Home.css";
@@ -9,17 +9,25 @@ import beerDoors from "../../images/beercoolerdoors.jpg";
 // import reservewall from "../../images/reservewall.jpg";
 
 const Home = () => {
+  const [showWineText, setShowWineText] = useState(false);
+  const [showSpiritsText, setShowSpiritsText] = useState(false);
+  const [showBeerText, setShowBeerText] = useState(false);
+
   return (
     <>
       <img className="storefrontImg" src={storefront} alt="storefront" />
 
       <div className="col-12 categoryDiv">
         <img className="col-6 wineAisles" src={wineAisles} alt="wine aisles" />
-        <div className="col-6 wineText">
+        <div
+          className="col-6 wineText"
+          onMouseEnter={() => setShowWineText(true)}
+          onMouseLeave={() => setShowWineText(false)}
+        >
           <h1>
             <Link to="/Wine">Wine</Link>
           </h1>
-          <p>
+          <p style={{ opacity: showWineText ? 1 : 0 }}>
             Let the knowledgeable staff at Cork & Barrel Wine and Spirits help
             you navigate our selection of over 2,200 different wines. Visit us
             today and take advantage of our amazing service and competitive
@@ -30,11 +38,13 @@ const Home = () => {
       </div>
 
       <div className="col-12 categoryDiv">
-        <div className="col-6 spiritsText">
+        <div className="col-6 spiritsText"
+        onMouseEnter={() => setShowSpiritsText(true)}
+        onMouseLeave={() => setShowSpiritsText(false)}>
           <h1>
             <Link to="/Spirits">Spirits</Link>
           </h1>
-          <p>
+          <p style={{ opacity: showSpiritsText ? 1 : 0 }}>
             At Cork & Barrel, our selection of spirits is vast and varied. We
             carry everything from the most popular brands to the most obscure.
             Our staff is always available to help you find the perfect spirit
@@ -56,11 +66,13 @@ const Home = () => {
           src={beerDoors}
           alt="Beer Cooler Doors"
         />
-        <div className="col-6 beerText">
+        <div className="col-6 beerText"
+        onMouseEnter={() => setShowBeerText(true)}
+        onMouseLeave={() => setShowBeerText(false)}>
           <h1>
-          <Link to="/Beer">Beer</Link>
+            <Link to="/Beer">Beer</Link>
           </h1>
-          <p>
+          <p style={{ opacity: showBeerText ? 1 : 0 }}>
             Cork & Barrel has an extensive selection of craft, domestic, and
             imported beers. We carry a wide variety of styles and sizes. Whether
             you're looking for a six-pack of your favorite beer, or a case of

@@ -40,6 +40,15 @@
     text-decoration: none;
 }
 
+.wineText p, .beerText p, .spiritsText p {
+    opacity: 0;
+    transition: opacity 0.5s ease; /* Transition both opacity and display */
+}
+
+.wineText:hover p, .beerText:hover p, .spiritsText:hover p{
+    opacity: 1;
+}
+
 .spiritsImg {
     width: auto;
     height: auto;
