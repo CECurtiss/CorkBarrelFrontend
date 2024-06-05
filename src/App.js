@@ -23,6 +23,7 @@ function App() {
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
+            {/* route below for gh pages home route load */}
             <Route path="/Corkbarrelfrontend" element={<Home />} />
             <Route path="/Wine" element={<Wine />} />
             <Route path="/Beer" element={<Beer />} />
