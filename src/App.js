@@ -7,7 +7,7 @@ import Wine from "./pages/Wine/Wine.js";
 import Beer from "./pages/Beer/Beer.js";
 import Spirits from "./pages/Spirits/Spirits.js";
 import NavigationBar from "./components/Navbar/Nav.js";
-import Events from "./pages/Events";
+// import Events from "./pages/Events";
 import Application from "./pages/Application/Application.js";
 import DonationRequest from "./pages/DonationRequest/DonationRequest.js";
 import AboutUs from "./pages/AboutUs";
@@ -28,7 +28,7 @@ function App() {
             <Route path="/Wine" element={<Wine />} />
             <Route path="/Beer" element={<Beer />} />
             <Route path="/Spirits" element={<Spirits />} />
-            <Route path="/Events" element={<Events />} />
+            {/* <Route path="/Events" element={<Events />} /> */}
             <Route path="/Application" element={<Application />} />
             <Route path="/Donation" element={<DonationRequest />} />
             <Route path="/AboutUs" element={<AboutUs />} />

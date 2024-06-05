@@ -34,13 +34,13 @@ a.dropdown-item:hover {
 }
 
 /* spacing for navbar items */
-.menuItemStyle {
+/* .menuItemStyle {
     display: flex;
     align-items: center;
     width: 30%;
     justify-content: center;
     text-decoration: none;
-  };
+  }; */
 
   /* effects for menu items */
 .menuItem {

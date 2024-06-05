@@ -15,17 +15,25 @@ const NavigationBar = () => {
     margin: "10px",
   };
 
+   const menuItemStyle= {
+    display: "flex",
+    alignItems: "center",
+    width: "30%",
+    justifyContent: "center",
+    textDecoration: "none",
+  };
+
   return (
     <Navbar style={{ position: "sticky" }} className="navbarStyle">
-      <Nav className="menuItemStyle">
-        <div>
+      <Nav style={menuItemStyle}>
+       
           <NavLink to="/Wine" className="linkStyle">
             <p className="menuItem">Wine</p>
           </NavLink>
-        </div>
+       
       </Nav>
 
-      <Nav className="menuItemStyle">
+      <Nav style={menuItemStyle}>
         <div>
           <NavLink to="/Spirits" className="linkStyle">
             <p className="menuItem">Spirits</p>
@@ -33,13 +41,13 @@ const NavigationBar = () => {
         </div>
       </Nav>
 
-      <Nav className="menuItemStyle">
+      <Nav style={menuItemStyle}>
         <NavLink to="/">
           <img src={corkbarrellogo} style={imgStyle} alt="home logo"></img>
         </NavLink>
       </Nav>
 
-      <Nav className="menuItemStyle">
+      <Nav style={menuItemStyle}>
         <div>
           <NavLink to="/Beer" className="linkStyle">
             <p className="menuItem">Beer</p>
@@ -47,7 +55,7 @@ const NavigationBar = () => {
         </div>
       </Nav>
 
-      <Nav style={{ marginBottom: "1rem" }} className="menuItemStyle">
+      <Nav style={menuItemStyle}>
         <NavDropdown
           onMouseLeave={() => setExpanded(false)}
           onMouseEnter={() => setExpanded(true)}
@@ -55,9 +63,9 @@ const NavigationBar = () => {
           title="More"
           id="basic-nav-dropdown"
         >
-          <NavDropdown.Item as={Link} to="/Events">
+          {/* <NavDropdown.Item as={Link} to="/Events">
             Upcoming Events
-          </NavDropdown.Item>
+          </NavDropdown.Item> */}
           <NavDropdown.Item as={Link} to="/Application">
             Online Application
           </NavDropdown.Item>
