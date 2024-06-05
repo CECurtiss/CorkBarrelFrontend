@@ -32,9 +32,9 @@ const Footer = () => {
                 <p>
                   <Link to="/Donation">Donation Request</Link>
                 </p>
-                <p>
+                {/* <p>
                   <Link to="/Events">Events</Link>
-                </p>
+                </p> */}
               </div>
 
               <div className="col-4 footerColumnLoc">
