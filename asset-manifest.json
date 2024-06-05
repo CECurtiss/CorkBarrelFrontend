@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/CorkBarrelFrontend/static/css/main.880b2482.css",
-    "main.js": "/CorkBarrelFrontend/static/js/main.3a1e80d4.js",
+    "main.js": "/CorkBarrelFrontend/static/js/main.c5b9517f.js",
     "static/media/beercoolerdoors2.jpg": "/CorkBarrelFrontend/static/media/beercoolerdoors2.95f6c56d935586b67f7a.jpg",
     "static/media/tequilaaisle.jpg": "/CorkBarrelFrontend/static/media/tequilaaisle.fa4b0dcfa42b399655bf.jpg",
     "static/media/WineHomepage1.jpg": "/CorkBarrelFrontend/static/media/WineHomepage1.dfbf161ef54b4438a663.jpg",
@@ -24,10 +24,10 @@
     "static/media/xicon7.png": "/CorkBarrelFrontend/static/media/xicon7.242e6fc38b282bde07d1.png",
     "index.html": "/CorkBarrelFrontend/index.html",
     "main.880b2482.css.map": "/CorkBarrelFrontend/static/css/main.880b2482.css.map",
-    "main.3a1e80d4.js.map": "/CorkBarrelFrontend/static/js/main.3a1e80d4.js.map"
+    "main.c5b9517f.js.map": "/CorkBarrelFrontend/static/js/main.c5b9517f.js.map"
   },
   "entrypoints": [
     "static/css/main.880b2482.css",
-    "static/js/main.3a1e80d4.js"
+    "static/js/main.c5b9517f.js"
   ]
 }
