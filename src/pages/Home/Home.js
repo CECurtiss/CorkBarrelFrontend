@@ -31,7 +31,7 @@ const Home = () => {
             Let the knowledgeable staff at Cork & Barrel Wine and Spirits help
             you navigate our selection of over 2,200 different wines. Visit us
             today and take advantage of our amazing service and competitive
-            prices. Wether you're buying your go-to wine, or looking for
+            prices. Whether you're buying your go-to wine, or looking for
             something completely new, we've got a wine for you.
           </p>
         </div>
