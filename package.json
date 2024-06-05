@@ -2,7 +2,7 @@
   "name": "corkbarrelfrontend",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://CECurtiss.github.io/CorkBarrelFrontend",
+  "homepage": "https://CECurtiss.github.io/",
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
     "@testing-library/react": "^13.4.0",
