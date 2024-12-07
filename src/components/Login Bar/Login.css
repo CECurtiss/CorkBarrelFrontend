@@ -2,7 +2,6 @@
     display: flex;
     justify-content: flex-end; /* Pushes items to the right */
     align-items: center; /* Vertically aligns items */
-    background-color: rgb(120, 175, 58); /* Your background color */
     height: 50px; /* Fixed height */
     z-index: 2147483647; /* Keeps it on top */
     width: 100%; /* Ensure full-page width */
