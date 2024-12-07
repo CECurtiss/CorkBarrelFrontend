@@ -7,6 +7,7 @@ import Wine from "./pages/Wine/Wine.js";
 import Beer from "./pages/Beer/Beer.js";
 import Spirits from "./pages/Spirits/Spirits.js";
 import NavigationBar from "./components/Navbar/Nav.js";
+import LoginBar from "./components/Login Bar/Login.js";
 // import Events from "./pages/Events";
 import Application from "./pages/Application/Application.js";
 import DonationRequest from "./pages/DonationRequest/DonationRequest.js";
@@ -20,6 +21,7 @@ function App() {
     <>
       <Router>
         <NavigationBar />
+        <LoginBar />
         <div>
           <Routes>
             <Route path="/" element={<Home />} />
@@ -57,8 +59,8 @@ export default App;
 
 // export default routes;
 
-{/* <Routes>
+/* <Routes>
           {routes.map((route, index) => (
             <Route key={index} path={route.path} element={route.component} />
           ))}
-        </Routes> */}
+        </Routes> */

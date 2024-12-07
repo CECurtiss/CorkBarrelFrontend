@@ -1,0 +1,25 @@
+.loginBar {
+    display: flex;
+    justify-content: flex-end; /* Pushes items to the right */
+    align-items: center; /* Vertically aligns items */
+    background-color: rgb(120, 175, 58); /* Your background color */
+    height: 50px; /* Fixed height */
+    z-index: 2147483647; /* Keeps it on top */
+    width: 100%; /* Ensure full-page width */
+    box-sizing: border-box; /* Prevents overflow from padding */
+    padding: 0 20px; /* Optional: Adds spacing from the edges */
+  }
+  .cartIcon {
+    height: 60px; /* Adjust icon size */
+    margin-right: 20px;
+    margin-left: 10px; /* Add spacing between Login and the cart icon */
+  }
+
+.loginBar a {
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 25px;
+    color: #054581;
+    text-shadow: 1px 1px 2px white;
+}
