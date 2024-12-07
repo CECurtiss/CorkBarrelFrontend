@@ -7,11 +7,12 @@ const Login = () => {
     return (
         <>
         <div className="loginBar">
-        <Link to="/Login">Login</Link>
-        <img src={cartLogo} className="cartIcon" alt="shopping cart icon"></img>
-      </div>
+            <Link className="shop">Shop</Link>
+            <Link>Login</Link>
+            <img src={cartLogo} className="cartIcon" alt="shopping cart icon"></img>
+        </div>
       </>
-    )
+    );
 }
 
 export default Login;

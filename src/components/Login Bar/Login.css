@@ -23,3 +23,16 @@
     color: #054581;
     text-shadow: 1px 1px 2px white;
 }
+
+.shop {
+    margin-right: 10px;
+    text-decoration: none;
+    font-family: georgia;
+    font-size: 25px;
+    color: #054581;
+    text-shadow: 1px 1px 2px white;
+    position: absolute;
+    left: 0;
+    margin-left: 30px;
+    
+}
